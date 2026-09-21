@@ -1,0 +1,38 @@
+import math
+import itertools
+import bisect
+import collections
+import string
+import heapq
+import functools
+import sortedcontainers
+from typing import List, Dict, Tuple, Iterator
+
+class Solution:
+  def findAnswer(self, n: int, edges: List[List[int]]) -> List[bool]:
+    graph = [[] for _ in range(n)]
+
+    for u, v, w in edges:
+      graph[u].append((v, w))
+      graph[v].append((u, w))
+
+    from0 = self._dijkstra(graph, 0)
+    from1 = self._dijkstra(graph, n - 1)
+    return [from0[u] + w + from1[v] == from0[-1] or from0[v] + w + from1[u] == from0[-1] for u, v, w in edges]
+
+  def _dijkstra(self, graph: List[List[Tuple[int, int]]], src: int) -> List[int]:
+    dist = [10**9] * len(graph)
+
+    dist[src] = 0
+    minHeap = [(dist[src], src)]
+
+    while minHeap:
+      d, u = heapq.heappop(minHeap)
+      if d > dist[u]:
+        continue
+      for v, w in graph[u]:
+        if d + w < dist[v]:
+          dist[v] = d + w
+          heapq.heappush(minHeap, (dist[v], v))
+
+    return dist

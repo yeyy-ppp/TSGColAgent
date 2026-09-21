@@ -1,0 +1,42 @@
+{
+  "name": "测试知识引导库",
+  "generated_at": "2026-08-30T08:15:42.087008+00:00",
+  "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\knowledge.json",
+  "knowledge_count": 1,
+  "adopted": 0,
+  "learning": 0,
+  "pending_review": 0,
+  "avoid": 1,
+  "application_count": 1,
+  "knowledge": [
+    {
+      "knowledge_id": "TKG-0001",
+      "language": "python",
+      "problem_type": "no_normal_behavior",
+      "strategy": "为每个可测试公开目标补充至少一个正常行为测试。",
+      "learning_status": "应避免",
+      "application_count": 1,
+      "independent_tasks": 1,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "average_quality_gain": -1.0,
+      "confidence": 0.2,
+      "last_updated": 1788077741.9932404
+    }
+  ],
+  "applications": [
+    {
+      "source": "task_098.py",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避no_normal_behavior失败",
+      "failure_category": "no_normal_behavior",
+      "experience_id": "failure-ee050a08b223eca93019b155",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": -1.0,
+      "effective": false,
+      "timestamp": 1788077741.9932404,
+      "application_count": 1
+    }
+  ]
+}

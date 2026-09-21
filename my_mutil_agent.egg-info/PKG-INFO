@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: my-mutil-agent
+Version: 0.1.0
+Summary: LangGraph-based multi-agent unit test generation system guided by a shared Test State Guidance mechanism.
+Requires-Python: >=3.11
+Requires-Dist: pytest>=8.0
+Requires-Dist: coverage>=7.0
+Requires-Dist: sortedcontainers<3.0,>=2.4
+Requires-Dist: langgraph<2.0,>=1.0
+Requires-Dist: langgraph-checkpoint-sqlite<4.0,>=3.0
+Requires-Dist: tree-sitter<0.26,>=0.25
+Requires-Dist: tree-sitter-java<0.24,>=0.23
+Requires-Dist: ollama<1.0,>=0.4

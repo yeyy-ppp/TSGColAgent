@@ -1,0 +1,68 @@
+{
+  "name": "测试知识引导库",
+  "generated_at": "2026-08-30T08:02:23.449990+00:00",
+  "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_test_knowledge_guidance_l0\\knowledge_store\\test_knowledge_guidance.json",
+  "knowledge_count": 1,
+  "adopted": 1,
+  "learning": 0,
+  "pending_review": 0,
+  "avoid": 0,
+  "application_count": 3,
+  "knowledge": [
+    {
+      "knowledge_id": "TKG-0001",
+      "language": "python",
+      "problem_type": "weak_assertions_only",
+      "strategy": "使用具体返回值断言",
+      "learning_status": "已采纳",
+      "application_count": 3,
+      "independent_tasks": 3,
+      "success_count": 3,
+      "success_rate": 1.0,
+      "average_quality_gain": 0.2,
+      "confidence": 0.6,
+      "last_updated": 1002.0
+    }
+  ],
+  "applications": [
+    {
+      "source": "task_2.py",
+      "agent": "AssertionAgent",
+      "action": "strengthen concrete oracle",
+      "failure_category": "weak_assertions_only",
+      "experience_id": "exp-2",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": 0.2,
+      "effective": true,
+      "timestamp": 1002,
+      "application_count": 1
+    },
+    {
+      "source": "task_1.py",
+      "agent": "AssertionAgent",
+      "action": "strengthen concrete oracle",
+      "failure_category": "weak_assertions_only",
+      "experience_id": "exp-1",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": 0.2,
+      "effective": true,
+      "timestamp": 1001,
+      "application_count": 1
+    },
+    {
+      "source": "task_0.py",
+      "agent": "AssertionAgent",
+      "action": "strengthen concrete oracle",
+      "failure_category": "weak_assertions_only",
+      "experience_id": "exp-0",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": 0.2,
+      "effective": true,
+      "timestamp": 1000,
+      "application_count": 1
+    }
+  ]
+}

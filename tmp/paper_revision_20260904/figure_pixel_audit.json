@@ -1,0 +1,142 @@
+[
+  {
+    "name": "图1_总体框架",
+    "input": "codex-clipboard-a78c1a0f-f0d7-4972-9c27-0c730e232675.png",
+    "masks": [],
+    "width": 935,
+    "height": 518,
+    "sourceHash": "fa6737d3c842a487c379d7f192c2e7239e4c3481e54333c46ab586bfd05e6881",
+    "changedInsideMasks": 0,
+    "changedOutsideMasks": 0,
+    "originalUnchanged": true
+  },
+  {
+    "name": "图2_状态引导",
+    "input": "codex-clipboard-c95fc51f-1c29-4d1b-b74c-b4829fb2f6f4.png",
+    "masks": [
+      {
+        "box": [
+          249,
+          415,
+          449,
+          441
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "box": [
+          485,
+          366,
+          683,
+          389
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "width": 900,
+    "height": 451,
+    "sourceHash": "f00e4ad701cf7fd149db44d14d565b17d54a9488b88bfda85352f4fb1adff9c2",
+    "changedInsideMasks": 6782,
+    "changedOutsideMasks": 0,
+    "originalUnchanged": true
+  },
+  {
+    "name": "图3_状态智能体",
+    "input": "codex-clipboard-430b0516-0328-4879-ad4b-ac682516e285.png",
+    "masks": [],
+    "width": 935,
+    "height": 465,
+    "sourceHash": "dae452a1910c2458e2e6be615b2d8997b9b3e8b9b6e5fc9e9152ae1c3fcf89a1",
+    "changedInsideMasks": 0,
+    "changedOutsideMasks": 0,
+    "originalUnchanged": true
+  },
+  {
+    "name": "图4_知识智能体",
+    "input": "codex-clipboard-18eac622-ea12-4b31-8281-87bf935418d7.png",
+    "masks": [
+      {
+        "box": [
+          239,
+          358,
+          335,
+          389
+        ],
+        "sampleX": 280,
+        "sampleY": 390
+      },
+      {
+        "box": [
+          398,
+          358,
+          502,
+          389
+        ],
+        "sampleX": 440,
+        "sampleY": 390
+      },
+      {
+        "box": [
+          563,
+          358,
+          668,
+          389
+        ],
+        "sampleX": 610,
+        "sampleY": 390
+      },
+      {
+        "box": [
+          735,
+          358,
+          833,
+          389
+        ],
+        "sampleX": 780,
+        "sampleY": 390
+      }
+    ],
+    "width": 915,
+    "height": 479,
+    "sourceHash": "9a1c59518ff6ff111ac0ddb9d35f2a017495dfc484c43428c20469fbaf3eba11",
+    "changedInsideMasks": 5288,
+    "changedOutsideMasks": 0,
+    "originalUnchanged": true
+  },
+  {
+    "name": "图5_生成智能体",
+    "input": "codex-clipboard-5032a236-d5d9-4fcd-9b51-e47aa1e2a54f.png",
+    "masks": [
+      {
+        "box": [
+          308,
+          408,
+          444,
+          442
+        ],
+        "color": [
+          255,
+          255,
+          255,
+          255
+        ]
+      }
+    ],
+    "width": 946,
+    "height": 491,
+    "sourceHash": "49b1916f4da55eada79db355f8af2849b2c53e9aa8cf7618a4603724a165a2c8",
+    "changedInsideMasks": 1879,
+    "changedOutsideMasks": 0,
+    "originalUnchanged": true
+  }
+]

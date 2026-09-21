@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_task_runtime_accumulates_0\\ADD.java",
+  "sessions": [
+    {
+      "id": "041db3d682ca56fa76da",
+      "round": 1,
+      "strategy": "initial_generation",
+      "status": "quality_acceptable",
+      "started_at": "2026-01-01T00:00:00+00:00",
+      "finished_at": "2026-01-01T00:00:05+00:00",
+      "duration_seconds": 5.0
+    },
+    {
+      "id": "494ccf25d723d6b9ef69",
+      "round": 3,
+      "strategy": "optimize_existing",
+      "status": "quality_high",
+      "started_at": "2026-01-02T00:00:00+00:00",
+      "finished_at": "2026-01-02T00:00:07+00:00",
+      "duration_seconds": 7.0
+    }
+  ],
+  "updated_at": "2026-01-02T00:00:07+00:00"
+}

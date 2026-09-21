@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_three_round_policy_recove0\\sources\\task_000.py",
+  "sessions": [
+    {
+      "id": "1cb3d3f6d771ffeacce6",
+      "round": 1,
+      "strategy": "initial_generation",
+      "status": "execution_invalid",
+      "started_at": "2026-08-30T08:15:35.722713+00:00",
+      "finished_at": "2026-08-30T08:15:35.757864+00:00",
+      "duration_seconds": 0.0352
+    },
+    {
+      "id": "f6aa25bf75b71a6211ed",
+      "round": 2,
+      "strategy": "regenerate_after_failure",
+      "status": "valid_usable",
+      "started_at": "2026-08-30T08:15:35.776180+00:00",
+      "finished_at": "2026-08-30T08:15:35.798198+00:00",
+      "duration_seconds": 0.022
+    },
+    {
+      "id": "0a2ddcda763b7559dd65",
+      "round": 3,
+      "strategy": "optimize_existing",
+      "status": "quality_acceptable",
+      "started_at": "2026-08-30T08:15:35.824880+00:00",
+      "finished_at": "2026-08-30T08:15:35.843902+00:00",
+      "duration_seconds": 0.019
+    }
+  ],
+  "updated_at": "2026-08-30T08:15:35.843902+00:00"
+}

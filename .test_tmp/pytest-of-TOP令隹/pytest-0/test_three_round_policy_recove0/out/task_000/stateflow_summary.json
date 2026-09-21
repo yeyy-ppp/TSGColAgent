@@ -1,0 +1,111 @@
+{
+  "round_failure_diagnostic": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources\\task_000.py",
+    "final_grade": "D",
+    "grade_label": "D·R1",
+    "experiment_round": 1,
+    "failure_category": "runtime_error",
+    "failure_reason": "runtime_error: execution_invalid",
+    "failure_stage": "test_execution",
+    "error": "execution_invalid",
+    "stop_reason": "execution_invalid",
+    "attempted_measures": [],
+    "suggested_solutions": [
+      "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。"
+    ],
+    "evidence": {},
+    "previous_solutions": [
+      "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "D",
+        "status": "execution_invalid",
+        "label": "D·R1",
+        "failure_reason": "runtime_error: execution_invalid",
+        "metrics": {
+          "pytest_passed": false,
+          "line_coverage": 0.0,
+          "branch_coverage": null,
+          "sfc": 0.0,
+          "ae": 0.0,
+          "mutation_score": null,
+          "sfq": 0.0,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-2c2e85a16210e2aa8f4110d7"
+    ],
+    "knowledge_record_id": "failure-2c2e85a16210e2aa8f4110d7",
+    "generated_at": "2026-08-30T08:02:16.032981+00:00"
+  },
+  "round_failure_history": [
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources\\task_000.py",
+      "final_grade": "D",
+      "grade_label": "D·R1",
+      "experiment_round": 1,
+      "failure_category": "runtime_error",
+      "failure_reason": "runtime_error: execution_invalid",
+      "failure_stage": "test_execution",
+      "error": "execution_invalid",
+      "stop_reason": "execution_invalid",
+      "attempted_measures": [],
+      "suggested_solutions": [
+        "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。"
+      ],
+      "evidence": {},
+      "previous_solutions": [
+        "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。",
+        "下一轮生成前先检索并应用该规避措施"
+      ],
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "D",
+          "status": "execution_invalid",
+          "label": "D·R1",
+          "failure_reason": "runtime_error: execution_invalid",
+          "metrics": {
+            "pytest_passed": false,
+            "line_coverage": 0.0,
+            "branch_coverage": null,
+            "sfc": 0.0,
+            "ae": 0.0,
+            "mutation_score": null,
+            "sfq": 0.0,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "matched_experience_ids": [
+        "failure-2c2e85a16210e2aa8f4110d7"
+      ],
+      "knowledge_record_id": "failure-2c2e85a16210e2aa8f4110d7",
+      "generated_at": "2026-08-30T08:02:16.032981+00:00"
+    }
+  ],
+  "visualization": {
+    "failure_report_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\out\\task_000\\task_failure_report_R1.html"
+  }
+}

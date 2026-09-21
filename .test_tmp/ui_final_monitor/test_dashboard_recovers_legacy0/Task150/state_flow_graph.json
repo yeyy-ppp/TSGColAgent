@@ -1,0 +1,1 @@
+{"metadata": {"test_generation_candidate_rejected": {"accepted": false, "stage": "collect_only", "failure_category": "import_error", "pytest_output": "ImportError: cannot import target function"}}}

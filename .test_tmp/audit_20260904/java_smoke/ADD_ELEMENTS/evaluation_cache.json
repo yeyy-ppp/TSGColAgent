@@ -1,0 +1,69 @@
+{
+  "schema_version": 2,
+  "entries": {
+    "java_toolchain:5bfc729846a0af73f1713b4799e4317dae33c5a82c2492302640ac59a5e5ef30": {
+      "result": {
+        "language": "java",
+        "build_system": "maven",
+        "passed": false,
+        "junit": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADD_ELEMENTSTest",
+            "test",
+            "jacoco:report"
+          ],
+          "passed": false,
+          "returncode": 1,
+          "stdout": "[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.213 s <<< FAILURE! -- in humaneval.correct.ADD_ELEMENTSTest\n[ERROR] humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1 -- Time elapsed: 0.066 s <<< FAILURE!\norg.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:75)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:58)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3228)\n\tat humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1(ADD_ELEMENTSTest.java:15)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\nCaused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:361)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\n\tat humaneval.correct.ADD_ELEMENTS.add_elements(ADD_ELEMENTS.java:9)\n\tat humaneval.correct.ADD_ELEMENTSTest.lambda$aDD_ELEMENTS_add_elements_1_numericResult_1$0(ADD_ELEMENTSTest.java:15)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:71)\n\t... 6 more\n\n[ERROR] Failures: \n[ERROR]   ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1:15 Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0\n[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project java-workspace: There are test failures.\n[ERROR] \n[ERROR] Please refer to D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\target\\surefire-reports for the individual test results.\n[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.\n[ERROR] -> [Help 1]\n[ERROR] \n[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.\n[ERROR] Re-run Maven using the -X switch to enable full debug logging.\n[ERROR] \n[ERROR] For more information about the errors and possible solutions, please read the following articles:\n[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException\n",
+          "stderr": "",
+          "timed_out": false,
+          "tool_missing": false,
+          "tool_resolution": null,
+          "combined_with_jacoco": true
+        },
+        "line_coverage": null,
+        "branch_coverage": null,
+        "method_coverage": null,
+        "mutation_score": null,
+        "jacoco": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADD_ELEMENTSTest",
+            "test",
+            "jacoco:report"
+          ],
+          "returncode": 1,
+          "stdout": "[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.213 s <<< FAILURE! -- in humaneval.correct.ADD_ELEMENTSTest\n[ERROR] humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1 -- Time elapsed: 0.066 s <<< FAILURE!\norg.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:75)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:58)\n\tat org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3228)\n\tat humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1(ADD_ELEMENTSTest.java:15)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:569)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\nCaused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n\tat java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)\n\tat java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)\n\tat java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)\n\tat java.base/java.util.Objects.checkIndex(Objects.java:361)\n\tat java.base/java.util.ArrayList.get(ArrayList.java:427)\n\tat humaneval.correct.ADD_ELEMENTS.add_elements(ADD_ELEMENTS.java:9)\n\tat humaneval.correct.ADD_ELEMENTSTest.lambda$aDD_ELEMENTS_add_elements_1_numericResult_1$0(ADD_ELEMENTSTest.java:15)\n\tat org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:71)\n\t... 6 more\n\n[ERROR] Failures: \n[ERROR]   ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1:15 Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0\n[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0\n[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.2.5:test (default-test) on project java-workspace: There are test failures.\n[ERROR] \n[ERROR] Please refer to D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD_ELEMENTS\\.java_workspace\\target\\surefire-reports for the individual test results.\n[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.\n[ERROR] -> [Help 1]\n[ERROR] \n[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.\n[ERROR] Re-run Maven using the -X switch to enable full debug logging.\n[ERROR] \n[ERROR] For more information about the errors and possible solutions, please read the following articles:\n[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException\n",
+          "stderr": "",
+          "valid": false,
+          "csv_path": null,
+          "xml_path": null,
+          "target_class": "humaneval.correct.ADD_ELEMENTS"
+        },
+        "pit": {
+          "valid": false,
+          "mutation_score": null,
+          "build_system": "maven",
+          "skipped": true,
+          "skipped_reason": "baseline_not_runnable",
+          "evaluation_profile": "screening"
+        },
+        "evaluation_profile": "screening",
+        "combined_test_coverage": true
+      }
+    }
+  }
+}

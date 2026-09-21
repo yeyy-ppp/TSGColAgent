@@ -1,0 +1,31 @@
+{
+  "active_id": "26fb483ad95fe1e7",
+  "experiments": [
+    {
+      "id": "26fb483ad95fe1e7",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_experiment_queue_finishes0\\second",
+      "label": "second",
+      "registered_at": "2026-08-30T08:15:42.402217+00:00",
+      "execution_status": "completed",
+      "queued_at": "2026-08-30T08:15:42.410876+00:00",
+      "process_id": 37532,
+      "return_code": 0,
+      "last_error": null,
+      "started_at": "2026-08-30T08:15:42.846065+00:00",
+      "finished_at": "2026-08-30T08:15:42.989562+00:00"
+    },
+    {
+      "id": "3d8fdab7baa9a758",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_experiment_queue_finishes0\\first",
+      "label": "first",
+      "registered_at": "2026-08-30T08:15:42.394181+00:00",
+      "execution_status": "completed",
+      "queued_at": "2026-08-30T08:15:42.406364+00:00",
+      "process_id": 33756,
+      "return_code": 0,
+      "last_error": null,
+      "started_at": "2026-08-30T08:15:42.432902+00:00",
+      "finished_at": "2026-08-30T08:15:42.824804+00:00"
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\datasets\\HumanEvalJava\\ADD.java",
+  "final_grade": "D",
+  "grade_label": "D·R1",
+  "experiment_round": 1,
+  "failure_category": "java_execution_failed",
+  "failure_reason": "java_execution_failed: candidate_rejected: execution_or_intent_validation_failed",
+  "failure_stage": "execution_or_intent_validation_failed",
+  "attempted_measures": [
+    "测试生成智能体已执行候选验证（阶段：execution_or_intent_validation_failed）",
+    "测试生成策略：structured_junit_fallback"
+  ],
+  "suggested_solutions": [
+    "保留完整错误和执行证据，由测试状态智能体重新归因后再选择修复策略。"
+  ],
+  "evidence": {
+    "stage": "execution_or_intent_validation_failed",
+    "generation_strategy": "structured_junit_fallback",
+    "llm_generation_error": null,
+    "candidate_validation": {
+      "accepted": false,
+      "stage": "execution_or_intent_validation_failed",
+      "status": "repair_required",
+      "language": "java",
+      "framework": "JUnit 5",
+      "strategy": "structured_junit_concrete_oracle",
+      "llm_error": null,
+      "test_class": "ADDTest",
+      "target_count": 1,
+      "package": "humaneval.correct",
+      "knowledge_application": {
+        "retrieved_reminders": [
+          "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+        ],
+        "applied_principles": [
+          "concrete expected-value assertions",
+          "paired boundary cases",
+          "explicit exception-type assertions",
+          "mutation-distinguishing inputs"
+        ]
+      },
+      "feasible": false,
+      "dynamic_validation": {
+        "passed": false,
+        "score": 0.55,
+        "rule_score": 1.0,
+        "logic_score": 1.0,
+        "feasibility_score": 0.0,
+        "coverage_score": 0.0,
+        "repair_scope_score": 1.0,
+        "errors": [
+          {
+            "code": "execution_failed",
+            "message": "Tests are not executable: java_execution_failed",
+            "severity": "error",
+            "related_nodes": [],
+            "related_edges": [],
+            "repair_hint": "locate minimal failing test scope from execution state flow"
+          },
+          {
+            "code": "coverage_missing",
+            "message": "No executable source coverage was observed.",
+            "severity": "error",
+            "related_nodes": [],
+            "related_edges": [],
+            "repair_hint": "repair import/path or generated test target"
+          }
+        ],
+        "warnings": []
+      },
+      "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\humaneval_parallel_audit\\ADD\\ADDTest.java"
+    },
+    "state_repair_attempts": 0
+  },
+  "previous_solutions": [
+    "Repair the smallest failing JUnit method; keep class name SourceNameTest and package declaration aligned with the source.",
+    "Reason: java_execution_failed. Cause: The generated JUnit test did not compile or did not pass. Solution: Repair the smallest failing JUnit method; keep class name SourceNameTest and package declaration aligned with the source.",
+    "Keep the test runnable and make sure the language toolchain can emit coverage reports.",
+    "Reason: coverage_unavailable. Cause: Coverage tools did not produce trustworthy line/branch data. Solution: Keep the test runnable and make sure the language toolchain can emit coverage reports.",
+    "Keep mutation as an unavailable evidence flag, then rely on coverage and assertion quality without failing the usable suite.",
+    "Reason: mutation_unavailable. Cause: Mutation testing did not produce a trustworthy score. Solution: Keep mutation as an unavailable evidence flag, then rely on coverage and assertion quality without failing the usable suite.",
+    "Add at least one nominal input/output test for every public target before edge cases.",
+    "Reason: weak_normal_behavior. Cause: The suite runs but does not sufficiently cover normal successful behavior. Solution: Add at least one nominal input/output test for every public target before edge cases."
+  ],
+  "grade_history": [
+    {
+      "round": 1,
+      "grade": "D",
+      "status": "execution_invalid",
+      "label": "D·R1",
+      "failure_reason": "java_execution_failed: candidate_rejected: execution_or_intent_validation_failed",
+      "metrics": {
+        "pytest_passed": false,
+        "line_coverage": 0.0,
+        "branch_coverage": null,
+        "sfc": 0.0,
+        "ae": 1.0,
+        "mutation_score": null,
+        "sfq": 0.4375,
+        "tsq": 0.4375
+      },
+      "knowledge_selected_ids": [
+        "09c3fbf1f88ce3acd3404e1c",
+        "legacy:experience:1788237867.5432687:CoverageAgent",
+        "historical-pattern:5e8776121e2cf5b556fc",
+        "f290dbe75a43d3fca4703aee",
+        "historical-pattern:02b05818f824ac2f53f3",
+        "legacy:experience:1788237867.5432687:CoverageAgent",
+        "09c3fbf1f88ce3acd3404e1c",
+        "historical-pattern:5e8776121e2cf5b556fc",
+        "f290dbe75a43d3fca4703aee",
+        "historical-pattern:02b05818f824ac2f53f3"
+      ]
+    }
+  ],
+  "knowledge_history": [
+    {
+      "query": {
+        "language": "java",
+        "dominant_gap": "initial_generation",
+        "action": null,
+        "focus": null,
+        "target_states": [],
+        "task_signature": {
+          "node_count": 8,
+          "function_count": 1,
+          "branch_count": 0,
+          "loop_count": 0,
+          "exception_count": 0,
+          "mutation_survivor_count": 0,
+          "language": "java",
+          "argument_types": [
+            "int"
+          ],
+          "operators": [],
+          "state_types": [
+            "Class",
+            "End",
+            "Function",
+            "Package",
+            "Parameter",
+            "Return",
+            "ReturnType"
+          ],
+          "target_terms": [
+            "add"
+          ],
+          "complexity": "low"
+        }
+      },
+      "hints": {
+        "matched_experience_count": 40,
+        "experience_sources": [
+          "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\humaneval_parallel_audit\\knowledge.json"
+        ],
+        "successful_strategies": [
+          {
+            "agent": "OracleRepairAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.893,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "OracleRepairAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.8731,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TestValidityAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.7295,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TestValidityAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.6357,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TypeAnalysisAgent",
+            "action": "历史经验：mutation",
+            "failure_category": null,
+            "reward": 0.2169,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          }
+        ],
+        "failure_patterns_to_avoid": [
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "generate_test_plan",
+            "failure_category": null,
+            "rejection_reason": "pending_compile_and_intent_validation",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "generate_test_plan",
+            "failure_category": null,
+            "rejection_reason": "pending_compile_and_intent_validation",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：runtime_error",
+            "failure_category": "runtime_error",
+            "rejection_reason": "历史任务反复出现 runtime_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Infer constructor and argument types from structured context before calling; use small valid objects."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：oracle_error",
+            "failure_category": "oracle_error",
+            "rejection_reason": "历史任务反复出现 oracle_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Observe behavior first, then assert exact return values, state changes, collection contents, or explicit exception types."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：oracle_error",
+            "failure_category": "oracle_error",
+            "rejection_reason": "历史任务反复出现 oracle_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Observe behavior first, then assert exact return values, state changes, collection contents, or explicit exception types."
+            ]
+          }
+        ],
+        "optimization_patterns": [
+          {
+            "agent": "MutationAgent",
+            "action": "历史经验：mutation",
+            "dominant_gap": "mutation",
+            "outcome": "no_gain",
+            "quality_status": null,
+            "weak_quality_flags": [],
+            "prompt_reminders": [
+              "Add paired inputs that force true and false branch outcomes."
+            ]
+          }
+        ],
+        "actionable_lessons": [
+          {
+            "reason": "该策略曾在 2 次历史应用中带来可测质量提升。",
+            "solution": "Add paired inputs that force true and false branch outcomes.",
+            "action": "Add paired inputs that force true and false branch outcomes.",
+            "support_count": 9
+          },
+          {
+            "lesson_type": "failure",
+            "reason_type": "pending_compile_and_intent_validation",
+            "cause": "The previous attempt failed or was rejected.",
+            "solution": "Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+            "reminder": "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+            "evidence": {
+              "agent": "ExecutionAgent/TestGenerationAgent",
+              "action": "generate_test_plan",
+              "oracle_kind": "unknown",
+              "input_partition": "negative",
+              "rejection_reason": "pending_compile_and_intent_validation"
+            },
+            "support_count": 2
+          }
+        ],
+        "failure_reminders": [
+          "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+        ],
+        "optimization_reminders": [],
+        "conversation_concepts": [],
+        "batch_guidance": {
+          "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\datasets\\TestEval",
+          "success_rate": 1.0,
+          "failure_categories": {},
+          "guidance": [
+            "上一批出现变异测试超时。下一轮应减少会放大循环或递归的输入，优先使用短列表、小整数、短字符串，并为循环退出条件补充明确断言。"
+          ],
+          "learning_notes": [
+            {
+              "lesson_type": "optimization",
+              "reason_type": "weak_mutation_score",
+              "cause": "Surviving mutants indicate weak defect-detection ability.",
+              "solution": "Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "reminder": "Reason: weak_mutation_score. Cause: Surviving mutants indicate weak defect-detection ability. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "evidence": {
+                "count": 1
+              }
+            },
+            {
+              "lesson_type": "optimization",
+              "reason_type": "mutation_gap",
+              "cause": "mutation_gap remained below the configured success threshold.",
+              "solution": "Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "reminder": "Reason: mutation_gap. Cause: mutation_gap remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "evidence": {
+                "count": 1
+              }
+            },
+            {
+              "lesson_type": "failure",
+              "reason_type": "timeout_or_mutation_timeout",
+              "cause": "Some generated tests or mutation runs timed out.",
+              "solution": "Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+              "reminder": "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+              "evidence": {
+                "pytest_timeout_count": 0,
+                "mutation_timeout_count": 1
+              }
+            }
+          ],
+          "prompt_reminders": [
+            "Reason: weak_mutation_score. Cause: Surviving mutants indicate weak defect-detection ability. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+            "Reason: mutation_gap. Cause: mutation_gap remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+            "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it."
+          ],
+          "weak_quality_flag_counts": {
+            "weak_mutation_score": 1
+          },
+          "threshold_gap_counts": {
+            "mutation_gap": 1
+          },
+          "timeout_tasks": [],
+          "mutation_timeout_tasks": [
+            "TestEvatask_000.py"
+          ],
+          "low_mutation_reliability_tasks": []
+        }
+      },
+      "selected_ids": [
+        "09c3fbf1f88ce3acd3404e1c",
+        "legacy:experience:1788237867.5432687:CoverageAgent",
+        "historical-pattern:5e8776121e2cf5b556fc",
+        "f290dbe75a43d3fca4703aee",
+        "historical-pattern:02b05818f824ac2f53f3"
+      ],
+      "outcome": {
+        "quality_status": "execution_invalid",
+        "pytest_passed": false,
+        "line_coverage": 0.0,
+        "branch_coverage": null,
+        "mutation_score": null,
+        "sfc": 0.0,
+        "ae": 1.0,
+        "tsq": 0.4375,
+        "failure_category": "java_execution_failed",
+        "action": "repair",
+        "focus": "normal_behavior_plan"
+      },
+      "round": 1
+    },
+    {
+      "query": {
+        "language": "java",
+        "dominant_gap": "coverage",
+        "action": "repair",
+        "focus": "normal_behavior_plan",
+        "target_states": [
+          "program:method:humaneval.correct.ADD.add:4"
+        ],
+        "task_signature": {
+          "node_count": 8,
+          "function_count": 1,
+          "branch_count": 0,
+          "loop_count": 0,
+          "exception_count": 0,
+          "mutation_survivor_count": 0,
+          "language": "java",
+          "argument_types": [
+            "int"
+          ],
+          "operators": [],
+          "state_types": [
+            "Class",
+            "End",
+            "Function",
+            "Package",
+            "Parameter",
+            "Return",
+            "ReturnType"
+          ],
+          "target_terms": [
+            "add"
+          ],
+          "complexity": "low"
+        }
+      },
+      "hints": {
+        "matched_experience_count": 40,
+        "experience_sources": [
+          "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\humaneval_parallel_audit\\knowledge.json"
+        ],
+        "successful_strategies": [
+          {
+            "agent": "OracleRepairAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.893,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "OracleRepairAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.8731,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TestValidityAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.7295,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TestValidityAgent",
+            "action": "历史经验：coverage",
+            "failure_category": null,
+            "reward": 0.6357,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          },
+          {
+            "agent": "TypeAnalysisAgent",
+            "action": "历史经验：mutation",
+            "failure_category": null,
+            "reward": 0.2169,
+            "delta_sfc": null,
+            "delta_ae": null,
+            "delta_mutation": null
+          }
+        ],
+        "failure_patterns_to_avoid": [
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "generate_test_plan",
+            "failure_category": null,
+            "rejection_reason": "pending_compile_and_intent_validation",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "generate_test_plan",
+            "failure_category": null,
+            "rejection_reason": "pending_compile_and_intent_validation",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：runtime_error",
+            "failure_category": "runtime_error",
+            "rejection_reason": "历史任务反复出现 runtime_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Infer constructor and argument types from structured context before calling; use small valid objects."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：oracle_error",
+            "failure_category": "oracle_error",
+            "rejection_reason": "历史任务反复出现 oracle_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Observe behavior first, then assert exact return values, state changes, collection contents, or explicit exception types."
+            ]
+          },
+          {
+            "agent": "ExecutionAgent/TestGenerationAgent",
+            "action": "历史经验：oracle_error",
+            "failure_category": "oracle_error",
+            "rejection_reason": "历史任务反复出现 oracle_error，生成前应先应用规避措施。",
+            "reward": -0.7,
+            "prompt_reminders": [
+              "Observe behavior first, then assert exact return values, state changes, collection contents, or explicit exception types."
+            ]
+          }
+        ],
+        "optimization_patterns": [
+          {
+            "agent": "MutationAgent",
+            "action": "历史经验：mutation",
+            "dominant_gap": "mutation",
+            "outcome": "no_gain",
+            "quality_status": null,
+            "weak_quality_flags": [],
+            "prompt_reminders": [
+              "Add paired inputs that force true and false branch outcomes."
+            ]
+          }
+        ],
+        "actionable_lessons": [
+          {
+            "reason": "该策略曾在 2 次历史应用中带来可测质量提升。",
+            "solution": "Add paired inputs that force true and false branch outcomes.",
+            "action": "Add paired inputs that force true and false branch outcomes.",
+            "support_count": 9
+          },
+          {
+            "lesson_type": "failure",
+            "reason_type": "pending_compile_and_intent_validation",
+            "cause": "The previous attempt failed or was rejected.",
+            "solution": "Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+            "reminder": "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+            "evidence": {
+              "agent": "ExecutionAgent/TestGenerationAgent",
+              "action": "generate_test_plan",
+              "oracle_kind": "unknown",
+              "input_partition": "negative",
+              "rejection_reason": "pending_compile_and_intent_validation"
+            },
+            "support_count": 2
+          }
+        ],
+        "failure_reminders": [
+          "Reason: pending_compile_and_intent_validation. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension."
+        ],
+        "optimization_reminders": [],
+        "conversation_concepts": [],
+        "batch_guidance": {
+          "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\datasets\\TestEval",
+          "success_rate": 1.0,
+          "failure_categories": {},
+          "guidance": [
+            "上一批出现变异测试超时。下一轮应减少会放大循环或递归的输入，优先使用短列表、小整数、短字符串，并为循环退出条件补充明确断言。"
+          ],
+          "learning_notes": [
+            {
+              "lesson_type": "optimization",
+              "reason_type": "weak_mutation_score",
+              "cause": "Surviving mutants indicate weak defect-detection ability.",
+              "solution": "Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "reminder": "Reason: weak_mutation_score. Cause: Surviving mutants indicate weak defect-detection ability. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "evidence": {
+                "count": 1
+              }
+            },
+            {
+              "lesson_type": "optimization",
+              "reason_type": "mutation_gap",
+              "cause": "mutation_gap remained below the configured success threshold.",
+              "solution": "Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "reminder": "Reason: mutation_gap. Cause: mutation_gap remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+              "evidence": {
+                "count": 1
+              }
+            },
+            {
+              "lesson_type": "failure",
+              "reason_type": "timeout_or_mutation_timeout",
+              "cause": "Some generated tests or mutation runs timed out.",
+              "solution": "Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+              "reminder": "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+              "evidence": {
+                "pytest_timeout_count": 0,
+                "mutation_timeout_count": 1
+              }
+            }
+          ],
+          "prompt_reminders": [
+            "Reason: weak_mutation_score. Cause: Surviving mutants indicate weak defect-detection ability. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+            "Reason: mutation_gap. Cause: mutation_gap remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+            "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it."
+          ],
+          "weak_quality_flag_counts": {
+            "weak_mutation_score": 1
+          },
+          "threshold_gap_counts": {
+            "mutation_gap": 1
+          },
+          "timeout_tasks": [],
+          "mutation_timeout_tasks": [
+            "TestEvatask_000.py"
+          ],
+          "low_mutation_reliability_tasks": []
+        }
+      },
+      "selected_ids": [
+        "legacy:experience:1788237867.5432687:CoverageAgent",
+        "09c3fbf1f88ce3acd3404e1c",
+        "historical-pattern:5e8776121e2cf5b556fc",
+        "f290dbe75a43d3fca4703aee",
+        "historical-pattern:02b05818f824ac2f53f3"
+      ],
+      "outcome": {
+        "quality_status": "execution_invalid",
+        "pytest_passed": false,
+        "line_coverage": 0.0,
+        "branch_coverage": null,
+        "mutation_score": null,
+        "sfc": 0.0,
+        "ae": 1.0,
+        "tsq": 0.4375,
+        "failure_category": "java_execution_failed",
+        "action": "repair",
+        "focus": "normal_behavior_plan"
+      },
+      "round": 1
+    }
+  ],
+  "matched_experience_ids": [
+    "1788269484.187547",
+    "failure-50ad5b2e36a35e1c49ed3b99",
+    "failure-11a25e6055e7a6c1675903b0",
+    "1788237867.5432687",
+    "09c3fbf1f88ce3acd3404e1c"
+  ],
+  "error": "candidate_rejected: execution_or_intent_validation_failed",
+  "generated_at": "2026-09-01T13:31:24.803303+00:00"
+}

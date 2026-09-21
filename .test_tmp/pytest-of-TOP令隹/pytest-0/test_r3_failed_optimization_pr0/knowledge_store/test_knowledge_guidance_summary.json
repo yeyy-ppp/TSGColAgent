@@ -1,0 +1,42 @@
+{
+  "name": "测试知识引导库",
+  "generated_at": "2026-08-30T08:02:16.532803+00:00",
+  "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\knowledge_store\\test_knowledge_guidance.json",
+  "knowledge_count": 1,
+  "adopted": 0,
+  "learning": 0,
+  "pending_review": 0,
+  "avoid": 1,
+  "application_count": 1,
+  "knowledge": [
+    {
+      "knowledge_id": "TKG-0001",
+      "language": "python",
+      "problem_type": "assertion_failure",
+      "strategy": "核对测试意图和实际行为，修正错误预期并保留有效断言。",
+      "learning_status": "应避免",
+      "application_count": 1,
+      "independent_tasks": 1,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "average_quality_gain": -1.0,
+      "confidence": 0.2,
+      "last_updated": 1788076936.4037075
+    }
+  ],
+  "applications": [
+    {
+      "source": "task_000.py",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避assertion_failure失败",
+      "failure_category": "assertion_failure",
+      "experience_id": "failure-095ac553b0f138c28a802271",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": -1.0,
+      "effective": false,
+      "timestamp": 1788076936.4037075,
+      "application_count": 1
+    }
+  ]
+}

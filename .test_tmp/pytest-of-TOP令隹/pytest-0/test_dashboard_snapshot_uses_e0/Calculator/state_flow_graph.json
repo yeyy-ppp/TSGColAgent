@@ -1,0 +1,1 @@
+{"source_path": "Calculator.java", "version": 3, "iteration": 2, "nodes": {"n1": {"node_type": "Method", "name": "add", "visited": true}}, "edges": [], "flow_history": [{"event_type": "KnowledgeRetrieved", "source_agent": "测试知识智能体", "target_agent": "测试状态智能体"}], "metadata": {"language": "java"}}

@@ -1,0 +1,150 @@
+{
+  "records": [
+    {
+      "record_type": "task_failure",
+      "experience_id": "failure-ee050a08b223eca93019b155",
+      "timestamp": 1788077741.9932404,
+      "model": "deepseek-r1:14b",
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources\\task_098.py",
+      "language": "python",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避no_normal_behavior失败",
+      "experiment_round": 1,
+      "failure_category": "no_normal_behavior",
+      "failure_stage": "semantic_usability",
+      "rejection_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+      "solution": "为每个可测试公开目标补充至少一个正常行为测试。",
+      "error": "candidate_rejected: generated candidate has no normal behavior assertion",
+      "candidate_status": "rejected",
+      "learning_stage": "avoid",
+      "accepted": false,
+      "reward": -1.0,
+      "prompt_reminders": [
+        "为每个可测试公开目标补充至少一个正常行为测试。"
+      ],
+      "learning_notes": [
+        {
+          "reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+          "solution": "为每个可测试公开目标补充至少一个正常行为测试。",
+          "action": "下一轮生成前先检索并应用该规避措施"
+        }
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788077742.0350802,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\out",
+      "total": 1,
+      "succeeded": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "failure_categories": {
+        "unknown": 1
+      },
+      "failed_tasks": [
+        "task_098.py"
+      ],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_098.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "failure",
+          "reason_type": "unknown",
+          "cause": "The previous attempt failed or was rejected.",
+          "solution": "Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+          "reminder": "Reason: unknown. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+          "evidence": {
+            "count": 1
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_098.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: unknown. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788077742.0663965,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\out",
+      "total": 1,
+      "succeeded": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "failure_categories": {
+        "unknown": 1
+      },
+      "failed_tasks": [
+        "task_098.py"
+      ],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_098.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "failure",
+          "reason_type": "unknown",
+          "cause": "The previous attempt failed or was rejected.",
+          "solution": "Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+          "reminder": "Reason: unknown. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+          "evidence": {
+            "count": 1
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_098.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: unknown. Cause: The previous attempt failed or was rejected. Solution: Generate conservative executable tests with clear oracles, then optimize only the reported weak dimension.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    }
+  ]
+}

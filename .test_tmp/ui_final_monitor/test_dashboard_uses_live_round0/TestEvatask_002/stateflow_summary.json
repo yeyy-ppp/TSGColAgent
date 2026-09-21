@@ -1,0 +1,1 @@
+{"source": "TestEvatask_002.py", "quality_status": "valid_usable", "final_grade": "C", "experiment_round": 1, "final_report": {"pytest_passed": true, "line_coverage": 0.73, "ae": 0.9}}

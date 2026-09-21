@@ -1,0 +1,12 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_final_de_task_has_reason_0\\sources\\task_000.py",
+  "experiment_round": 2,
+  "status": "completed",
+  "strategy": "regenerate_after_failure",
+  "previous_grade": "D",
+  "previous_status": "execution_invalid",
+  "final_grade": "D",
+  "result_status": "execution_invalid",
+  "improved": false,
+  "updated_at": "2026-08-30T08:02:23.052787+00:00"
+}

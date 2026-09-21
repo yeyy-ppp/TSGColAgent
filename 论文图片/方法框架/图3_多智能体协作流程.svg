@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960">
+<defs>
+  <marker id="ab" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#667fc3"/></marker>
+  <marker id="ag" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#579680"/></marker>
+  <marker id="ao" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#c18f4d"/></marker>
+  <marker id="ar" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0L10 3L0 6Z" fill="#c66f78"/></marker>
+  <filter id="sd" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#40506a" flood-opacity=".10"/></filter>
+  <style>text{font-family:"Microsoft YaHei",Arial,sans-serif;fill:#26364a}.title{font-size:31px;font-weight:700}.sub{font-size:16px;fill:#748195}.head{font-size:20px;font-weight:700}.label{font-size:16px;font-weight:600}.small{font-size:14px;fill:#657489}.tiny{font-size:12px;fill:#78869a}.blue{fill:none;stroke:#667fc3;stroke-width:3;marker-end:url(#ab)}.green{fill:none;stroke:#579680;stroke-width:3;marker-end:url(#ag)}.gold{fill:none;stroke:#c18f4d;stroke-width:3;stroke-dasharray:9 7;marker-end:url(#ao)}.red{fill:none;stroke:#c66f78;stroke-width:3;stroke-dasharray:8 6;marker-end:url(#ar)}</style>
+</defs>
+<rect width="1600" height="960" fill="#fff"/>
+<text x="800" y="44" text-anchor="middle" class="title">基于共享TSG的多智能体任务交接与记忆回流流程</text>
+<text x="800" y="72" text-anchor="middle" class="sub">状态智能体统筹 · 知识智能体供给经验 · 生成智能体执行验证 · 结构化工件闭环交接</text>
+
+<!-- shared routing layer -->
+<rect x="38" y="100" width="1524" height="120" rx="22" fill="#faf7f0" stroke="#e2d5bb" stroke-width="2"/>
+<text x="72" y="132" class="label">共享控制层</text><text x="72" y="155" class="tiny">LangGraph条件路由 / SQLite检查点</text>
+<path d="M310 160H1460" stroke="#ceb77f" stroke-width="4"/>
+<g class="tiny"><circle cx="340" cy="160" r="27" fill="#e9f0fb" stroke="#7d98cf"/><text x="340" y="165" text-anchor="middle">感知</text><circle cx="540" cy="160" r="27" fill="#e9f0fb" stroke="#7d98cf"/><text x="540" y="165" text-anchor="middle">分解</text><circle cx="740" cy="160" r="27" fill="#e8f4f0" stroke="#71aa97"/><text x="740" y="165" text-anchor="middle">检索</text><circle cx="940" cy="160" r="27" fill="#f2edf8" stroke="#9c87c4"/><text x="940" y="165" text-anchor="middle">生成</text><circle cx="1140" cy="160" r="27" fill="#f2edf8" stroke="#9c87c4"/><text x="1140" y="165" text-anchor="middle">执行</text><circle cx="1340" cy="160" r="27" fill="#e9f0fb" stroke="#7d98cf"/><text x="1340" y="165" text-anchor="middle">评估</text></g>
+<rect x="185" y="126" width="92" height="68" rx="14" fill="#fff" stroke="#cfba87"/><text x="231" y="151" text-anchor="middle" class="tiny">当前状态</text><text x="231" y="173" text-anchor="middle" class="label">Sₜ · vₜ</text>
+<rect x="1468" y="126" width="66" height="68" rx="14" fill="#fff" stroke="#cfba87"/><text x="1501" y="151" text-anchor="middle" class="tiny">下一状态</text><text x="1501" y="173" text-anchor="middle" class="label">Sₜ₊₁</text>
+
+<!-- phase panels -->
+<rect x="38" y="255" width="350" height="530" rx="22" fill="#f7fafe" stroke="#cad8e9" stroke-width="2"/>
+<rect x="412" y="255" width="350" height="530" rx="22" fill="#f7fbf9" stroke="#cde0d9" stroke-width="2"/>
+<rect x="786" y="255" width="390" height="530" rx="22" fill="#fbf9fd" stroke="#d9d0e7" stroke-width="2"/>
+<rect x="1200" y="255" width="362" height="530" rx="22" fill="#f9fbfe" stroke="#cad8e9" stroke-width="2"/>
+<rect x="38" y="255" width="350" height="62" rx="22" fill="#e9f0fb"/><text x="213" y="293" text-anchor="middle" class="head">① 感知与任务分解</text>
+<rect x="412" y="255" width="350" height="62" rx="22" fill="#e8f4f0"/><text x="587" y="293" text-anchor="middle" class="head">② 记忆检索与上下文组装</text>
+<rect x="786" y="255" width="390" height="62" rx="22" fill="#f2edf8"/><text x="981" y="293" text-anchor="middle" class="head">③ 候选生成与真实执行</text>
+<rect x="1200" y="255" width="362" height="62" rx="22" fill="#e9f0fb"/><text x="1381" y="293" text-anchor="middle" class="head">④ 评估路由与记忆回流</text>
+
+<!-- phase 1 state agent internal workflow -->
+<circle cx="105" cy="360" r="34" fill="#6f8fcf"/><path d="M88 360l12 12 25-30" fill="none" stroke="#fff" stroke-width="5"/>
+<text x="153" y="355" class="label">测试状态智能体</text><text x="153" y="378" class="tiny">理解 · 统筹 · 决策</text>
+<g filter="url(#sd)">
+  <rect x="70" y="425" width="126" height="76" rx="15" fill="#fff" stroke="#c6d4e8"/><text x="133" y="452" text-anchor="middle" class="label">状态感知</text><text x="133" y="476" text-anchor="middle" class="tiny">结构 / 证据 / 缺口</text>
+  <rect x="230" y="425" width="126" height="76" rx="15" fill="#fff" stroke="#c6d4e8"/><text x="293" y="452" text-anchor="middle" class="label">质量评估</text><text x="293" y="476" text-anchor="middle" class="tiny">SFC / AE / MS</text>
+  <rect x="70" y="540" width="126" height="76" rx="15" fill="#fff" stroke="#c6d4e8"/><text x="133" y="567" text-anchor="middle" class="label">任务分解</text><text x="133" y="591" text-anchor="middle" class="tiny">目标状态 / 缺口</text>
+  <rect x="230" y="540" width="126" height="76" rx="15" fill="#fff" stroke="#c6d4e8"/><text x="293" y="567" text-anchor="middle" class="label">条件决策</text><text x="293" y="591" text-anchor="middle" class="tiny">检索 / 生成 / 结束</text>
+</g>
+<path d="M196 463H230M293 501V540M230 578H196M133 540V501" class="blue"/>
+<rect x="70" y="665" width="286" height="74" rx="16" fill="#fff" stroke="#c6d4e8"/>
+<text x="91" y="691" class="label">任务目标工件 Qₜ</text><text x="91" y="716" class="tiny">gap_type · target_state · constraints · next_action</text>
+
+<!-- phase 2 knowledge agent -->
+<circle cx="479" cy="360" r="34" fill="#62a18b"/><path d="M463 360h32M479 344v32" stroke="#fff" stroke-width="5"/><circle cx="479" cy="360" r="22" fill="none" stroke="#fff" stroke-width="3"/>
+<text x="527" y="355" class="label">测试知识智能体</text><text x="527" y="378" class="tiny">检索 · 验证 · 记忆</text>
+<g filter="url(#sd)">
+  <rect x="445" y="425" width="284" height="92" rx="16" fill="#fff" stroke="#c9ddd6"/>
+  <text x="587" y="452" text-anchor="middle" class="label">共享经验池</text>
+  <g class="tiny"><rect x="463" y="472" width="58" height="26" rx="13" fill="#e9f0fb"/><text x="492" y="490" text-anchor="middle">任务签名</text><rect x="529" y="472" width="58" height="26" rx="13" fill="#e8f4f0"/><text x="558" y="490" text-anchor="middle">成功动作</text><rect x="595" y="472" width="58" height="26" rx="13" fill="#f7eedf"/><text x="624" y="490" text-anchor="middle">失败模式</text><rect x="661" y="472" width="50" height="26" rx="13" fill="#f2edf8"/><text x="686" y="490" text-anchor="middle">概念</text></g>
+  <rect x="445" y="548" width="130" height="78" rx="15" fill="#fff" stroke="#c9ddd6"/><text x="510" y="575" text-anchor="middle" class="label">混合检索</text><text x="510" y="599" text-anchor="middle" class="tiny">语义＋结构＋时效</text>
+  <rect x="599" y="548" width="130" height="78" rx="15" fill="#fff" stroke="#c9ddd6"/><text x="664" y="575" text-anchor="middle" class="label">证据筛选</text><text x="664" y="599" text-anchor="middle" class="tiny">已掌握 / 应避免</text>
+</g>
+<path d="M587 517V535H510V548M587 535H664V548" class="green"/>
+<rect x="445" y="665" width="284" height="74" rx="16" fill="#fff" stroke="#c9ddd6"/>
+<text x="466" y="691" class="label">知识工件 Kₜ</text><text x="466" y="716" class="tiny">recommended_actions · assertion_patterns · forbidden_actions</text>
+
+<!-- phase 3 generation agent -->
+<circle cx="853" cy="360" r="34" fill="#9985c1"/><g transform="translate(836 343)" fill="none" stroke="#fff" stroke-width="4"><rect x="5" y="5" width="24" height="24" rx="4"/><path d="M0 12h5M29 12h5M12 0v5M22 0v5"/></g>
+<text x="901" y="355" class="label">测试生成智能体</text><text x="901" y="378" class="tiny">规划 · 生成 · 执行</text>
+<g filter="url(#sd)">
+  <rect x="820" y="425" width="150" height="76" rx="15" fill="#fff" stroke="#d5cae5"/><text x="895" y="452" text-anchor="middle" class="label">候选规划</text><text x="895" y="476" text-anchor="middle" class="tiny">Qₜ ＋ Kₜ</text>
+  <rect x="994" y="425" width="150" height="76" rx="15" fill="#fff" stroke="#d5cae5"/><text x="1069" y="452" text-anchor="middle" class="label">测试生成</text><text x="1069" y="476" text-anchor="middle" class="tiny">Python / Java</text>
+  <rect x="820" y="540" width="150" height="76" rx="15" fill="#fff" stroke="#d5cae5"/><text x="895" y="567" text-anchor="middle" class="label">多目标增强</text><text x="895" y="591" text-anchor="middle" class="tiny">断言 / 变异 / 覆盖</text>
+  <rect x="994" y="540" width="150" height="76" rx="15" fill="#fff" stroke="#d5cae5"/><text x="1069" y="567" text-anchor="middle" class="label">真实工具执行</text><text x="1069" y="591" text-anchor="middle" class="tiny">pytest/JUnit · Coverage · PIT</text>
+</g>
+<path d="M970 463H994M1069 501V540M994 578H970M895 540V501" class="blue"/>
+<rect x="820" y="665" width="324" height="74" rx="16" fill="#fff" stroke="#d5cae5"/>
+<text x="841" y="691" class="label">测试与证据工件 (Tₜ₊₁, Oₜ)</text><text x="841" y="716" class="tiny">test_artifact · execution · coverage · assertion · mutation</text>
+
+<!-- phase 4 evaluation / memory return -->
+<g filter="url(#sd)">
+  <rect x="1232" y="345" width="298" height="105" rx="17" fill="#fff" stroke="#c6d4e8"/>
+  <text x="1381" y="374" text-anchor="middle" class="label">测试状态智能体复评</text>
+  <g class="tiny"><rect x="1252" y="396" width="54" height="28" rx="14" fill="#e8f4f0"/><text x="1279" y="415" text-anchor="middle">A/B</text><rect x="1316" y="396" width="54" height="28" rx="14" fill="#f7eedf"/><text x="1343" y="415" text-anchor="middle">C</text><rect x="1380" y="396" width="54" height="28" rx="14" fill="#fae8e9"/><text x="1407" y="415" text-anchor="middle">D/E</text><rect x="1444" y="396" width="66" height="28" rx="14" fill="#e9f0fb"/><text x="1477" y="415" text-anchor="middle">next</text></g>
+  <rect x="1232" y="485" width="140" height="100" rx="16" fill="#fff" stroke="#c6d4e8"/><text x="1302" y="513" text-anchor="middle" class="label">路由决策</text><polygon points="1302,530 1336,552 1302,574 1268,552" fill="#f7eedf" stroke="#c18f4d" stroke-width="2"/><text x="1302" y="557" text-anchor="middle" class="tiny">继续?</text>
+  <rect x="1390" y="485" width="140" height="100" rx="16" fill="#fff" stroke="#c9ddd6"/><text x="1460" y="513" text-anchor="middle" class="label">记忆更新</text><circle cx="1425" cy="550" r="12" fill="#d2a159"/><circle cx="1460" cy="550" r="12" fill="#d8bd82"/><circle cx="1495" cy="550" r="12" fill="#62a18b"/><path d="M1437 550h11M1472 550h11" stroke="#9ba8b8" stroke-width="2"/><text x="1460" y="578" text-anchor="middle" class="tiny">学习→复核→掌握</text>
+  <rect x="1232" y="620" width="298" height="119" rx="16" fill="#fff" stroke="#c6d4e8"/>
+  <text x="1253" y="648" class="label">评估与回流工件</text><text x="1253" y="675" class="tiny">grade · metrics · reward · failure_category</text><text x="1253" y="700" class="tiny">next_action · checkpoint · knowledge_update</text><rect x="1260" y="712" width="242" height="10" rx="5" fill="#e4e9f1"/><rect x="1260" y="712" width="176" height="10" rx="5" fill="#6f8fcf"/>
+</g>
+<path d="M1381 450V485" class="blue"/><path d="M1372 535H1390" class="green"/>
+
+<!-- numbered handoff arrows -->
+<path d="M388 690H412" class="blue"/><circle cx="400" cy="668" r="16" fill="#fff" stroke="#667fc3" stroke-width="2"/><text x="400" y="673" text-anchor="middle" class="tiny">1</text>
+<path d="M762 690H786" class="green"/><circle cx="774" cy="668" r="16" fill="#fff" stroke="#579680" stroke-width="2"/><text x="774" y="673" text-anchor="middle" class="tiny">2</text>
+<path d="M1176 690H1200" class="blue"/><circle cx="1188" cy="668" r="16" fill="#fff" stroke="#667fc3" stroke-width="2"/><text x="1188" y="673" text-anchor="middle" class="tiny">3</text>
+<path d="M1302 585C1280 820 370 835 213 785" class="gold"/><circle cx="865" cy="825" r="16" fill="#fff" stroke="#c18f4d" stroke-width="2"/><text x="865" y="830" text-anchor="middle" class="tiny">4</text>
+<path d="M1460 585C1455 810 860 825 587 785" class="green"/><circle cx="1110" cy="825" r="16" fill="#fff" stroke="#579680" stroke-width="2"/><text x="1110" y="830" text-anchor="middle" class="tiny">5</text>
+
+<!-- cross-cutting structured handoff strip -->
+<rect x="38" y="855" width="1524" height="72" rx="20" fill="#f6f8fb" stroke="#d7dfe9" stroke-width="2"/>
+<text x="70" y="885" class="label">结构化交接协议</text><text x="70" y="909" class="tiny">每次交接都绑定同一任务与状态版本</text>
+<g class="small"><rect x="280" y="873" width="180" height="36" rx="18" fill="#e9f0fb"/><text x="370" y="896" text-anchor="middle">task_signature</text><rect x="485" y="873" width="180" height="36" rx="18" fill="#f2edf8"/><text x="575" y="896" text-anchor="middle">state_version</text><rect x="690" y="873" width="180" height="36" rx="18" fill="#e8f4f0"/><text x="780" y="896" text-anchor="middle">evidence_ref</text><rect x="895" y="873" width="180" height="36" rx="18" fill="#f7eedf"/><text x="985" y="896" text-anchor="middle">budget / round</text><rect x="1100" y="873" width="180" height="36" rx="18" fill="#fae8e9"/><text x="1190" y="896" text-anchor="middle">failure_category</text><rect x="1305" y="873" width="210" height="36" rx="18" fill="#e6f1f4"/><text x="1410" y="896" text-anchor="middle">Python / Java adapters</text></g>
+
+<!-- top state routing arrows -->
+<path d="M277 160H313" class="blue"/><path d="M1367 160H1468" class="green"/>
+<path d="M340 187V240H213V255M740 187V238H587V255M940 187V238H981V255M1340 187V238H1381V255" stroke="#9ca8b7" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+</svg>

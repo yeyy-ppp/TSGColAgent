@@ -1,0 +1,235 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\sources\\task_000.py",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\generated\\task_000",
+  "mode": "execute",
+  "status": "generation_failed",
+  "started_at": "2026-08-30T08:02:15.635556+00:00",
+  "finished_at": "2026-08-30T08:02:15.695171+00:00",
+  "duration_seconds": 0.0596,
+  "final_report": null,
+  "error": "RuntimeError: boom\nTraceback (most recent call last):\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\batch_generate_tests.py\", line 157, in _run_initial_source\n    item = _generate_and_execute(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\tests\\test_batch_generate_tests.py\", line 500, in fail_generation\n    raise RuntimeError(\"boom\")\nRuntimeError: boom\n",
+  "visualization": {
+    "status": "generated",
+    "failure_report_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\generated\\task_000\\task_failure_report.html",
+    "generated_at": "2026-08-30T08:02:15.648310+00:00"
+  },
+  "llm": {
+    "enabled": false,
+    "required": false,
+    "provider": "ollama",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "deepseek-r1:14b",
+    "timeout": 120,
+    "temperature": 0.2
+  },
+  "round_failure_diagnostic": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\sources\\task_000.py",
+    "final_grade": "E",
+    "grade_label": "E·R1",
+    "experiment_round": 1,
+    "failure_category": "generation_failed",
+    "failure_reason": "generation_failed: RuntimeError: boom",
+    "failure_stage": "test_generation",
+    "error": "RuntimeError: boom\nTraceback (most recent call last):\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\batch_generate_tests.py\", line 157, in _run_initial_source\n    item = _generate_and_execute(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\tests\\test_batch_generate_tests.py\", line 500, in fail_generation\n    raise RuntimeError(\"boom\")\nRuntimeError: boom",
+    "stop_reason": "generation_failed",
+    "attempted_measures": [],
+    "suggested_solutions": [
+      "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。"
+    ],
+    "evidence": {},
+    "previous_solutions": [
+      "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "E",
+        "status": "generation_failed",
+        "label": "E·R1",
+        "failure_reason": "generation_failed: RuntimeError: boom",
+        "metrics": {
+          "pytest_passed": null,
+          "line_coverage": null,
+          "branch_coverage": null,
+          "sfc": null,
+          "ae": null,
+          "mutation_score": null,
+          "sfq": null,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-6c5c516ff1980a985a51dc77"
+    ],
+    "knowledge_record_id": "failure-6c5c516ff1980a985a51dc77",
+    "generated_at": "2026-08-30T08:02:15.683895+00:00"
+  },
+  "round_failure_history": [
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\sources\\task_000.py",
+      "final_grade": "E",
+      "grade_label": "E·R1",
+      "experiment_round": 1,
+      "failure_category": "generation_failed",
+      "failure_reason": "generation_failed: RuntimeError: boom",
+      "failure_stage": "test_generation",
+      "error": "RuntimeError: boom\nTraceback (most recent call last):\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\batch_generate_tests.py\", line 157, in _run_initial_source\n    item = _generate_and_execute(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\tests\\test_batch_generate_tests.py\", line 500, in fail_generation\n    raise RuntimeError(\"boom\")\nRuntimeError: boom",
+      "stop_reason": "generation_failed",
+      "attempted_measures": [],
+      "suggested_solutions": [
+        "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。"
+      ],
+      "evidence": {},
+      "previous_solutions": [
+        "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。",
+        "下一轮生成前先检索并应用该规避措施"
+      ],
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "E",
+          "status": "generation_failed",
+          "label": "E·R1",
+          "failure_reason": "generation_failed: RuntimeError: boom",
+          "metrics": {
+            "pytest_passed": null,
+            "line_coverage": null,
+            "branch_coverage": null,
+            "sfc": null,
+            "ae": null,
+            "mutation_score": null,
+            "sfq": null,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "matched_experience_ids": [
+        "failure-6c5c516ff1980a985a51dc77"
+      ],
+      "knowledge_record_id": "failure-6c5c516ff1980a985a51dc77",
+      "generated_at": "2026-08-30T08:02:15.683895+00:00"
+    }
+  ],
+  "experiment_round": 1,
+  "final_grade": "E",
+  "grade_label": "E·R1",
+  "grade_history": [
+    {
+      "round": 1,
+      "grade": "E",
+      "status": "generation_failed",
+      "label": "E·R1",
+      "failure_reason": "generation_failed: RuntimeError: boom",
+      "metrics": {
+        "pytest_passed": null,
+        "line_coverage": null,
+        "branch_coverage": null,
+        "sfc": null,
+        "ae": null,
+        "mutation_score": null,
+        "sfq": null,
+        "tsq": null
+      },
+      "knowledge_selected_ids": []
+    }
+  ],
+  "knowledge_history": [
+    {
+      "round": 1,
+      "selected_ids": [],
+      "status": "retrieved_without_selected_match"
+    }
+  ],
+  "followup_strategy": "initial_generation",
+  "quality_status": "generation_failed",
+  "cumulative_duration_seconds": 0.0596,
+  "attempt_count": 1,
+  "failure_reason": "generation_failed: RuntimeError: boom",
+  "timing": {
+    "started_at": "2026-08-30T08:02:15.635556+00:00",
+    "finished_at": "2026-08-30T08:02:15.695171+00:00",
+    "duration_seconds": 0.0596,
+    "accumulated_duration_seconds": 0.0596,
+    "active_session_started_at": null,
+    "attempt_count": 1,
+    "sessions": [
+      {
+        "id": "7ed3b18bf10414eb5424",
+        "round": 1,
+        "strategy": "initial_generation",
+        "status": "generation_failed",
+        "started_at": "2026-08-30T08:02:15.635556+00:00",
+        "finished_at": "2026-08-30T08:02:15.695171+00:00",
+        "duration_seconds": 0.0596
+      }
+    ]
+  },
+  "experiment_outcome": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_failure_writes_per_0\\sources\\task_000.py",
+    "final_grade": "E",
+    "grade_label": "E·R1",
+    "experiment_round": 1,
+    "failure_category": "generation_failed",
+    "failure_reason": "generation_failed: RuntimeError: boom",
+    "failure_stage": "test_generation",
+    "attempted_measures": [],
+    "suggested_solutions": [
+      "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。"
+    ],
+    "evidence": {},
+    "previous_solutions": [
+      "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "E",
+        "status": "generation_failed",
+        "label": "E·R1",
+        "failure_reason": "generation_failed: RuntimeError: boom",
+        "metrics": {
+          "pytest_passed": null,
+          "line_coverage": null,
+          "branch_coverage": null,
+          "sfc": null,
+          "ae": null,
+          "mutation_score": null,
+          "sfq": null,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-6c5c516ff1980a985a51dc77"
+    ],
+    "error": "RuntimeError: boom\nTraceback (most recent call last):\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\batch_generate_tests.py\", line 157, in _run_initial_source\n    item = _generate_and_execute(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\tests\\test_batch_generate_tests.py\", line 500, in fail_generation\n    raise RuntimeError(\"boom\")\nRuntimeError: boom",
+    "generated_at": "2026-08-30T08:02:15.743531+00:00"
+  }
+}

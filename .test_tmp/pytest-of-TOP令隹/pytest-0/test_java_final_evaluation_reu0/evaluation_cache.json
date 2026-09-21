@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "entries": {
+    "java_toolchain:7a916b147f4d212329c5943ff56f45ee2465f1f352af97b465c62792f68db5c7": {
+      "result": {
+        "language": "java",
+        "build_system": "maven",
+        "passed": true,
+        "junit": {
+          "passed": true
+        },
+        "line_coverage": 1.0,
+        "branch_coverage": null,
+        "method_coverage": 1.0,
+        "mutation_score": null,
+        "jacoco": {
+          "valid": true,
+          "covered_lines": [
+            1
+          ]
+        },
+        "pit": {
+          "valid": false,
+          "mutation_score": null,
+          "skipped": true
+        },
+        "evaluation_profile": "screening"
+      }
+    },
+    "java_toolchain:2a3c3f2189b768ce13e087bf85285ffa8a470a7ddf692d6082e6cbb206f734ac": {
+      "result": {
+        "language": "java",
+        "build_system": "maven",
+        "passed": true,
+        "junit": {
+          "passed": true
+        },
+        "line_coverage": 1.0,
+        "branch_coverage": null,
+        "method_coverage": 1.0,
+        "mutation_score": 1.0,
+        "jacoco": {
+          "valid": true,
+          "covered_lines": [
+            1
+          ]
+        },
+        "pit": {
+          "valid": true,
+          "mutation_score": 1.0,
+          "effective_mutants": 3,
+          "score_reliability": "normal",
+          "killed": 3,
+          "survived": 0,
+          "total": 3
+        },
+        "evaluation_profile": "full",
+        "reused_screening_validation": true
+      }
+    }
+  }
+}

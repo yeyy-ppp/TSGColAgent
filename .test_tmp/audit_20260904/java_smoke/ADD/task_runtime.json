@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\datasets\\HumanEvalJava\\ADD.java",
+  "sessions": [
+    {
+      "id": "5b4a4d67ae9c746cde18",
+      "round": 1,
+      "strategy": "initial_generation",
+      "status": "valid_usable",
+      "started_at": "2026-09-04T04:58:10.695326+00:00",
+      "finished_at": "2026-09-04T04:58:36.921575+00:00",
+      "duration_seconds": 26.2262
+    }
+  ],
+  "updated_at": "2026-09-04T04:58:36.921575+00:00"
+}

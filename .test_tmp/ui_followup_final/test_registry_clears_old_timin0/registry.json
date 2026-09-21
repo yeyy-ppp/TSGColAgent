@@ -1,0 +1,16 @@
+{
+  "active_id": "965c4772c5d2c2cd",
+  "experiments": [
+    {
+      "id": "965c4772c5d2c2cd",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\ui_followup_final\\test_registry_clears_old_timin0\\run",
+      "label": "new",
+      "registered_at": "2026-08-30T12:59:22.951611+00:00",
+      "execution_status": "queued",
+      "started_at": null,
+      "finished_at": null,
+      "return_code": null,
+      "last_error": null
+    }
+  ]
+}

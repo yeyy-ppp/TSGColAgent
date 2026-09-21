@@ -1,0 +1,80 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources\\task_000.py",
+  "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\test_task_000_stateflow.py",
+  "graph_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.json",
+  "mode": "generate-only",
+  "final_report": null,
+  "graph_version": 3,
+  "visualization": {
+    "status": "generated",
+    "graph_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.html",
+    "graph_svg": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.svg",
+    "source_coverage_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\source_coverage.html",
+    "generated_at": "2026-08-30T08:02:13.149807+00:00"
+  },
+  "llm": {
+    "enabled": false,
+    "required": false,
+    "provider": "ollama",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "deepseek-r1:14b",
+    "timeout": 120,
+    "temperature": 0.2
+  },
+  "experiment_round": 1,
+  "final_grade": "A",
+  "grade_label": "A·R1",
+  "grade_history": [
+    {
+      "round": 1,
+      "grade": "A",
+      "status": "generated",
+      "label": "A·R1",
+      "failure_reason": null,
+      "metrics": {
+        "pytest_passed": null,
+        "line_coverage": null,
+        "branch_coverage": null,
+        "sfc": null,
+        "ae": null,
+        "mutation_score": null,
+        "sfq": null,
+        "tsq": null
+      },
+      "knowledge_selected_ids": []
+    }
+  ],
+  "knowledge_history": [
+    {
+      "round": 1,
+      "selected_ids": [],
+      "status": "retrieved_without_selected_match"
+    }
+  ],
+  "followup_strategy": "initial_generation",
+  "quality_status": "generated",
+  "started_at": "2026-08-30T08:02:02.560095+00:00",
+  "finished_at": "2026-08-30T08:02:13.168679+00:00",
+  "duration_seconds": 10.6086,
+  "cumulative_duration_seconds": 10.6086,
+  "attempt_count": 1,
+  "timing": {
+    "started_at": "2026-08-30T08:02:02.560095+00:00",
+    "finished_at": "2026-08-30T08:02:13.168679+00:00",
+    "duration_seconds": 10.6086,
+    "accumulated_duration_seconds": 10.6086,
+    "active_session_started_at": null,
+    "attempt_count": 1,
+    "sessions": [
+      {
+        "id": "260811e67fc476445b9c",
+        "round": 1,
+        "strategy": "initial_generation",
+        "status": "generated",
+        "started_at": "2026-08-30T08:02:02.560095+00:00",
+        "finished_at": "2026-08-30T08:02:13.168679+00:00",
+        "duration_seconds": 10.6086
+      }
+    ]
+  }
+}

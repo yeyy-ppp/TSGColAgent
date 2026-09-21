@@ -1,0 +1,174 @@
+{
+  "records": [
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076935.1763594,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\generated",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_002.py"
+      ],
+      "weak_success_tasks": [
+        {
+          "source": "task_002.py",
+          "weak_quality_flags": [],
+          "threshold_failures": {
+            "mutation": 0.6
+          }
+        }
+      ],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {
+        "mutation": 1
+      },
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "mutation",
+          "cause": "mutation remained below the configured success threshold.",
+          "solution": "Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+          "reminder": "Reason: mutation. Cause: mutation remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+          "evidence": {
+            "count": 1
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "valid_but_weak_success",
+          "cause": "Some tasks were executable and therefore usable, but did not reach the strong quality threshold.",
+          "solution": "Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+          "reminder": "Reason: valid_but_weak_success. Cause: Some tasks were executable and therefore usable, but did not reach the strong quality threshold. Solution: Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              {
+                "source": "task_002.py",
+                "weak_quality_flags": [],
+                "threshold_failures": {
+                  "mutation": 0.6
+                }
+              }
+            ]
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_002.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: mutation. Cause: mutation remained below the configured success threshold. Solution: Add assertions that distinguish boundary operators, arithmetic changes, and boolean negations.",
+        "Reason: valid_but_weak_success. Cause: Some tasks were executable and therefore usable, but did not reach the strong quality threshold. Solution: Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076935.2185953,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\generated",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_002.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_002.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076935.231229,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_c_grade_r3_optimizes_exis0\\generated",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_002.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_002.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    }
+  ]
+}

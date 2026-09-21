@@ -1,0 +1,357 @@
+{
+  "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated",
+  "pattern": "task_*.py",
+  "effective_pattern": "task_*.py",
+  "language": "auto",
+  "recursive": false,
+  "mode": "generate-only",
+  "execution_policy": {
+    "task_workers": 2,
+    "python_parallel": true,
+    "java_parallel": false,
+    "repair_rounds": "R1 establishes all baselines; R2 recovers D/E only; R3 performs focused optimization for every C result; each round allows at most three internal repair or optimization attempts with early stopping",
+    "mutation_profiles": "screening evidence is reused by the final evaluation; repair candidates use at most 6 screening mutants"
+  },
+  "llm": {
+    "enabled": false,
+    "required": false,
+    "provider": "ollama",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "deepseek-r1:14b",
+    "timeout": 120,
+    "temperature": 0.2
+  },
+  "started_at": "2026-08-30T08:02:02.541256+00:00",
+  "first_started_at": "2026-08-30T08:02:02.541256+00:00",
+  "current_session_started_at": "2026-08-30T08:02:02.541256+00:00",
+  "finished_at": "2026-08-30T08:02:13.206940+00:00",
+  "session_duration_seconds": 10.6657,
+  "duration_seconds": 10.6657,
+  "cumulative_duration_seconds": 10.6657,
+  "discovered_files": 2,
+  "official_tasks": 2,
+  "selected_tasks": 2,
+  "resumed_existing": 0,
+  "skipped": 0,
+  "skipped_reason_counts": {},
+  "skipped_examples": [],
+  "skipped_files": [],
+  "retry_policy": {
+    "enabled": false,
+    "experiment_rounds": 1,
+    "strategy": "R1 runs all tasks. R2 handles only D/E using failure-oriented knowledge and recovery generation. R3 then keeps every C-grade passing suite and performs knowledge/LLM-guided focused optimization, with at most three internal attempts and early stopping. No R4 is allowed."
+  },
+  "retry_history": [],
+  "retry_summary": {
+    "rounds_after_initial": 0,
+    "followup_task_count": 0,
+    "attempts": 0,
+    "recovered": 0,
+    "improved": 0,
+    "by_round": {},
+    "strategy_counts": {}
+  },
+  "experiment_round_summary": {
+    "rounds_after_initial": 0,
+    "followup_task_count": 0,
+    "attempts": 0,
+    "recovered": 0,
+    "improved": 0,
+    "by_round": {},
+    "strategy_counts": {}
+  },
+  "total": 2,
+  "generated": 2,
+  "valid": 2,
+  "quality_acceptable": 0,
+  "quality_high": 2,
+  "weak_success": 0,
+  "plateau_reached": 0,
+  "incomplete": 0,
+  "succeeded": 2,
+  "failed": 0,
+  "invalid": 0,
+  "unfinished": 0,
+  "outcome_summary": {
+    "total_tasks": 2,
+    "valid_results": 2,
+    "invalid_results": 0,
+    "unfinished_results": 0,
+    "completed_execution": 2,
+    "not_completed_execution": 0,
+    "completion_rate": 1.0,
+    "grade_counts": {
+      "A": 2,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0
+    },
+    "grade_round_counts": {
+      "A": {
+        "R1": 2,
+        "R2": 0,
+        "R3": 0
+      },
+      "B": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0
+      },
+      "C": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0
+      },
+      "D": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0
+      },
+      "E": {
+        "R1": 0,
+        "R2": 0,
+        "R3": 0
+      }
+    },
+    "final_round_counts": {
+      "R1": 2,
+      "R2": 0,
+      "R3": 0
+    },
+    "balance_valid": true
+  },
+  "statistics_definition": {
+    "balance": "total_tasks = A + B + C + D + E",
+    "completed_execution": "A + B + C",
+    "not_completed_execution": "D + E",
+    "round_marker": "A·R1, B·R2 and similar labels show the last experiment round attempted"
+  },
+  "failure_analysis": {
+    "failure_categories": {},
+    "rejected_low_quality": [],
+    "low_mutation_reliability": [],
+    "unknown_details": []
+  },
+  "weak_success_analysis": {
+    "weak_success_count": 0,
+    "weak_quality_flag_counts": {},
+    "examples": []
+  },
+  "quality_overview": {
+    "executed_tasks": 0,
+    "all_executed_tasks": 0,
+    "excluded_invalid_tasks": 0,
+    "average_line_coverage": null,
+    "average_branch_coverage": null,
+    "average_sfc": null,
+    "average_ae": null,
+    "average_mutation_score": null,
+    "average_sfq": null,
+    "mutation_scored_tasks": 0,
+    "total_assertions": 0,
+    "total_effective_assertions": 0,
+    "total_weak_assertions": 0,
+    "average_effective_mutants": null,
+    "low_mutation_reliability": [],
+    "assertion_explanation": "有效断言=总断言数减去弱断言；弱断言包括恒真、只和 None 比较、对象存在性检查等无法证明具体行为的断言。"
+  },
+  "results": [
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources\\task_000.py",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000",
+      "status": "generated",
+      "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\test_task_000_stateflow.py",
+      "graph_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.json",
+      "summary_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\stateflow_summary.json",
+      "final_report": null,
+      "visualization": {
+        "status": "generated",
+        "graph_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.html",
+        "graph_svg": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\state_flow_graph.svg",
+        "source_coverage_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_000\\source_coverage.html",
+        "generated_at": "2026-08-30T08:02:13.149807+00:00"
+      },
+      "error": null,
+      "final_grade": "A",
+      "grade_label": "A·R1",
+      "experiment_round": 1,
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "A",
+          "status": "generated",
+          "label": "A·R1",
+          "failure_reason": null,
+          "metrics": {
+            "pytest_passed": null,
+            "line_coverage": null,
+            "branch_coverage": null,
+            "sfc": null,
+            "ae": null,
+            "mutation_score": null,
+            "sfq": null,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "failure_reason": null,
+      "previous_solutions": [],
+      "failure_report": null,
+      "round_strategy": null,
+      "round_failure_diagnostic": null,
+      "started_at": "2026-08-30T08:02:02.560095+00:00",
+      "finished_at": "2026-08-30T08:02:13.168679+00:00",
+      "duration_seconds": 10.6086,
+      "attempt_count": 1
+    },
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001",
+      "status": "generated",
+      "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\test_task_001_stateflow.py",
+      "graph_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\state_flow_graph.json",
+      "summary_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\stateflow_summary.json",
+      "final_report": null,
+      "visualization": {
+        "status": "generated",
+        "graph_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\state_flow_graph.html",
+        "graph_svg": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\state_flow_graph.svg",
+        "source_coverage_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\task_001\\source_coverage.html",
+        "generated_at": "2026-08-30T08:02:11.387483+00:00"
+      },
+      "error": null,
+      "final_grade": "A",
+      "grade_label": "A·R1",
+      "experiment_round": 1,
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "A",
+          "status": "generated",
+          "label": "A·R1",
+          "failure_reason": null,
+          "metrics": {
+            "pytest_passed": null,
+            "line_coverage": null,
+            "branch_coverage": null,
+            "sfc": null,
+            "ae": null,
+            "mutation_score": null,
+            "sfq": null,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "failure_reason": null,
+      "previous_solutions": [],
+      "failure_report": null,
+      "round_strategy": null,
+      "round_failure_diagnostic": null,
+      "started_at": "2026-08-30T08:02:02.560095+00:00",
+      "finished_at": "2026-08-30T08:02:11.401071+00:00",
+      "duration_seconds": 8.841,
+      "attempt_count": 1
+    }
+  ],
+  "batch_experience": {
+    "record_type": "batch_summary",
+    "timestamp": 1788076933.2119527,
+    "model": "deepseek-r1:14b",
+    "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources",
+    "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated",
+    "total": 2,
+    "succeeded": 2,
+    "failed": 0,
+    "success_rate": 1.0,
+    "failure_categories": {},
+    "failed_tasks": [],
+    "timeout_tasks": [],
+    "mutation_timeout_tasks": [],
+    "rejected_low_quality": [],
+    "low_mutation_reliability_tasks": [
+      "task_000.py",
+      "task_001.py"
+    ],
+    "weak_success_tasks": [],
+    "weak_quality_flag_counts": {},
+    "threshold_gap_counts": {},
+    "guidance": [
+      "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+    ],
+    "learning_notes": [
+      {
+        "lesson_type": "optimization",
+        "reason_type": "low_mutation_reliability",
+        "cause": "Mutation evidence was weak or unavailable on several tasks.",
+        "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+        "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+        "evidence": {
+          "count": 2,
+          "examples": [
+            "task_000.py",
+            "task_001.py"
+          ]
+        }
+      }
+    ],
+    "prompt_reminders": [
+      "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+    ]
+  },
+  "test_knowledge_guidance_library": {
+    "status": "generated",
+    "name": "测试知识引导库",
+    "html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\knowledge_store\\test_knowledge_guidance_library.html",
+    "summary": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\knowledge_store\\test_knowledge_guidance_summary.json",
+    "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\knowledge_store\\test_knowledge_guidance.json"
+  },
+  "batch_report": {
+    "status": "generated",
+    "batch_report_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\batch_quality_report.html",
+    "generated_at": "2026-08-30T08:02:13.272735+00:00"
+  },
+  "dataset_completion": {
+    "schema_version": 1,
+    "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\sources",
+    "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated",
+    "language": "auto",
+    "execute": false,
+    "pattern": "task_*.py",
+    "recursive": false,
+    "requested_recursive": false,
+    "effective_pattern": "task_*.py",
+    "official_tasks": 2,
+    "selected_tasks": 2,
+    "source_signature": "e664787e4f98b3cdd8b4d2a4842ac4b074bae4d3034aa2104fa91fa073ac2b90",
+    "source_file_count": 2,
+    "grade_counts": {
+      "A": 2,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0
+    },
+    "skip_ready": true,
+    "reason": "all eligible tasks have A/B/C results",
+    "updated_at": "2026-08-30T08:02:13.278765+00:00",
+    "path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_generate_tests_for_0\\generated\\dataset_completion.json"
+  }
+}

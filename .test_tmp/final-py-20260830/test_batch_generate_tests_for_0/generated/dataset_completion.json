@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\generated",
+  "language": "auto",
+  "execute": false,
+  "pattern": "task_*.py",
+  "recursive": false,
+  "requested_recursive": false,
+  "effective_pattern": "task_*.py",
+  "official_tasks": 2,
+  "selected_tasks": 2,
+  "source_signature": "fc3d88aec39904bc223776481a465244766d932cda7ce45c7491dcc25bf61f8d",
+  "source_file_count": 2,
+  "grade_counts": {
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "skip_ready": true,
+  "reason": "all eligible tasks have A/B/C results",
+  "updated_at": "2026-08-30T08:15:34.680175+00:00"
+}

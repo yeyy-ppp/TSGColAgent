@@ -1,0 +1,642 @@
+{
+  "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+  "version": 3,
+  "graph_version": 3,
+  "iteration": 2,
+  "timestamp": "2026-08-30T08:02:02.096587+00:00",
+  "nodes": {
+    "program:module:target": {
+      "node_id": "program:module:target",
+      "node_type": "Module",
+      "name": "target",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.7,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python",
+        "structured": true
+      }
+    },
+    "program:function:target.value:1": {
+      "node_id": "program:function:target.value:1",
+      "node_type": "Function",
+      "name": "value",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+      "line_start": 1,
+      "line_end": 2,
+      "code": "def value():\n    return 1",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.85,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "qualified_name": "target.value",
+        "visibility": "public",
+        "scope": "",
+        "args": [],
+        "arg_annotations": {},
+        "returns": null,
+        "is_static": false,
+        "is_async": false,
+        "is_generator": false,
+        "is_constructor": false,
+        "language": "python",
+        "type_parameters": [],
+        "is_override": false
+      }
+    },
+    "program:return:target.value:2": {
+      "node_id": "program:return:target.value:2",
+      "node_type": "Return",
+      "name": "1",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+      "line_start": 2,
+      "line_end": 2,
+      "code": "1",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.75,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "owner": "target.value",
+        "kind": "return"
+      }
+    },
+    "program:end:module": {
+      "node_id": "program:end:module",
+      "node_type": "End",
+      "name": "ModuleEnd",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.2,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python"
+      }
+    }
+  },
+  "edges": [
+    {
+      "source": "program:module:target",
+      "target": "program:function:target.value:1",
+      "edge_type": "defines",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:target.value:1",
+      "target": "program:return:target.value:2",
+      "edge_type": "return",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:target.value:1",
+      "target": "program:end:module",
+      "edge_type": "method_exit",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    }
+  ],
+  "history": [
+    {
+      "version": 1,
+      "timestamp": "2026-08-30T08:01:58.231872+00:00",
+      "reason": "structured context analysis completed"
+    },
+    {
+      "version": 2,
+      "timestamp": "2026-08-30T08:02:02.096587+00:00",
+      "reason": "invalid execution completed"
+    }
+  ],
+  "flow_history": [
+    {
+      "event_type": "ContextExtracted",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [],
+      "related_edges": [],
+      "payload": {
+        "language": "python",
+        "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+        "class_count": 0,
+        "function_count": 1,
+        "rewrite_summary": {
+          "extractor": "PythonStructuredContextExtractor",
+          "module_docstring_present": false,
+          "raw_class_count": 0,
+          "raw_function_count": 1,
+          "rewriter": "ContextRewriter",
+          "comments_and_format_noise_removed": true,
+          "signatures_normalized": true,
+          "call_and_control_flow_normalized": true,
+          "test_relevant_classes": 0,
+          "test_relevant_functions": 1
+        }
+      },
+      "iteration": 0,
+      "event_id": "sfe_4c11307c733d"
+    },
+    {
+      "event_type": "InitialGraphBuilt",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [
+        "program:module:target",
+        "program:function:target.value:1",
+        "program:return:target.value:2",
+        "program:end:module"
+      ],
+      "related_edges": [],
+      "payload": {
+        "node_count": 4,
+        "edge_count": 3
+      },
+      "iteration": 0,
+      "event_id": "sfe_fcaacea94442"
+    },
+    {
+      "event_type": "ValidationFailed",
+      "source_agent": "测试生成智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [],
+      "related_edges": [],
+      "payload": {
+        "report": {
+          "pytest_passed": false,
+          "coverage_percent": 0.0,
+          "line_coverage": 0.0,
+          "branch_coverage": null,
+          "combined_coverage": 0.0,
+          "mutation_score": null,
+          "sfc": 0.0,
+          "ae": 0.0,
+          "sfq": 0.0,
+          "tsq": 0.0,
+          "pv": 0.0,
+          "nrr": 1.0,
+          "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\test_target.py",
+          "failure_category": "oracle_error",
+          "failed_tests": [
+            {
+              "nodeid": "test_target.py::test_value",
+              "test_name": "test_value",
+              "line": null,
+              "actual": null,
+              "expected": null,
+              "message": null,
+              "code": "def test_value():\n    assert False"
+            }
+          ],
+          "coverage_valid": false,
+          "mutation_valid": false,
+          "quality_status": "invalid",
+          "next_allowed_agents": [
+            "OracleRepairAgent",
+            "TestValidityAgent"
+          ],
+          "collected_count": 1,
+          "timed_out": false,
+          "effective_mutants": 0,
+          "mutation_reliability": "unavailable",
+          "weak_assertions_only": true,
+          "exception_only": false,
+          "normal_behavior_tests": 0,
+          "assertion_count": 1,
+          "weak_assertions": 1,
+          "effective_assertions": 0,
+          "assertion_quality_explanation": "断言存在但全部被识别为弱断言，例如恒真、None 比较或只检查对象存在",
+          "sfc_components": {},
+          "timeout_kind": null,
+          "timeout_reason": null,
+          "timeout_likely_location": null,
+          "timeout_should_repair": true,
+          "weak_quality_flags": [],
+          "threshold_failures": {},
+          "failure_location": null,
+          "repair_failure_reason": null,
+          "evaluation_profile": "screening",
+          "mutation_complete": false,
+          "cache_hit": false,
+          "mutation_evidence": {},
+          "quality_assessment": {}
+        },
+        "diagnosis": {
+          "failure_category": "oracle_error",
+          "root_candidates": [
+            "test_value"
+          ],
+          "evidence_ids": [],
+          "recommended_focus": "oracle",
+          "confidence": 0.9,
+          "timeout_kind": null,
+          "timeout_reason": null,
+          "likely_location": null,
+          "should_repair": true
+        }
+      },
+      "iteration": 1,
+      "event_id": "sfe_3244cc89197e"
+    }
+  ],
+  "metadata": {
+    "graph_kind": "Test-State-Model",
+    "language": "python",
+    "structured_context": {
+      "language": "python",
+      "project_root": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0",
+      "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\target.py",
+      "package_or_module": "target",
+      "classes": [],
+      "functions": [
+        {
+          "name": "value",
+          "qualified_name": "target.value",
+          "visibility": "public",
+          "parameters": [],
+          "return_type": null,
+          "thrown_exceptions": [],
+          "decorators_or_annotations": [],
+          "is_static": false,
+          "is_async": false,
+          "is_constructor": false,
+          "calls": [],
+          "branches": [],
+          "loops": [],
+          "returns": [
+            {
+              "kind": "return",
+              "text": "1",
+              "line_start": 2,
+              "line_end": 2,
+              "qualified_owner": "target.value"
+            }
+          ],
+          "raises_or_throws": [],
+          "related_dependencies": [],
+          "line_start": 1,
+          "line_end": 2,
+          "code": "def value():\n    return 1",
+          "class_name": null,
+          "type_parameters": [],
+          "is_override": false
+        }
+      ],
+      "dependencies": [],
+      "control_structures": [],
+      "execution_fragments": [
+        {
+          "kind": "return",
+          "text": "1",
+          "line_start": 2,
+          "line_end": 2,
+          "qualified_owner": "target.value"
+        }
+      ],
+      "rewrite_summary": {
+        "extractor": "PythonStructuredContextExtractor",
+        "module_docstring_present": false,
+        "raw_class_count": 0,
+        "raw_function_count": 1,
+        "rewriter": "ContextRewriter",
+        "comments_and_format_noise_removed": true,
+        "signatures_normalized": true,
+        "call_and_control_flow_normalized": true,
+        "test_relevant_classes": 0,
+        "test_relevant_functions": 1
+      }
+    },
+    "analysis_strategy": "structured_context",
+    "method_core": {
+      "structured_code_analysis_and_rewrite": true,
+      "test_state_guidance": true,
+      "test_state_model": true,
+      "test_state_event_exchange": true,
+      "dynamic_validation_in_test_state_agent": true,
+      "state_positioning_repair_in_test_generation_agent": true,
+      "state_target_optimization_in_test_generation_agent": true,
+      "three_primary_agents": [
+        "TestStateAgent",
+        "TestGenerationAgent",
+        "TestKnowledgeAgent"
+      ],
+      "supported_languages": [
+        "python",
+        "java"
+      ]
+    },
+    "agent_collaboration_exchange": [
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "ContextExtracted",
+        "event_id": "sfe_4c11307c733d",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 0,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      },
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "InitialGraphBuilt",
+        "event_id": "sfe_fcaacea94442",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 4,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      },
+      {
+        "sender": "ExecutionAgent",
+        "artifact_type": "ExecutionResult",
+        "payload": {
+          "pytest_passed": false,
+          "coverage_percent": 0.0,
+          "line_coverage": 0.0,
+          "branch_coverage": null,
+          "combined_coverage": 0.0,
+          "mutation_score": null,
+          "sfc": 0.0,
+          "ae": 0.0,
+          "sfq": 0.0,
+          "tsq": 0.0,
+          "pv": 0.0,
+          "nrr": 1.0,
+          "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\test_target.py",
+          "failure_category": "oracle_error",
+          "failed_tests": [
+            {
+              "nodeid": "test_target.py::test_value",
+              "test_name": "test_value",
+              "line": null,
+              "actual": null,
+              "expected": null,
+              "message": null,
+              "code": "def test_value():\n    assert False"
+            }
+          ],
+          "coverage_valid": false,
+          "mutation_valid": false,
+          "quality_status": "invalid",
+          "next_allowed_agents": [
+            "OracleRepairAgent",
+            "TestValidityAgent"
+          ],
+          "collected_count": 1,
+          "timed_out": false,
+          "effective_mutants": 0,
+          "mutation_reliability": "unavailable",
+          "weak_assertions_only": true,
+          "exception_only": false,
+          "normal_behavior_tests": 0,
+          "assertion_count": 1,
+          "weak_assertions": 1,
+          "effective_assertions": 0,
+          "assertion_quality_explanation": "断言存在但全部被识别为弱断言，例如恒真、None 比较或只检查对象存在",
+          "sfc_components": {},
+          "timeout_kind": null,
+          "timeout_reason": null,
+          "timeout_likely_location": null,
+          "timeout_should_repair": true,
+          "weak_quality_flags": [],
+          "threshold_failures": {},
+          "failure_location": null,
+          "repair_failure_reason": null,
+          "evaluation_profile": "screening",
+          "mutation_complete": false,
+          "cache_hit": false,
+          "mutation_evidence": {},
+          "quality_assessment": {}
+        }
+      },
+      {
+        "sender": "测试生成智能体",
+        "artifact_type": "ValidationFailed",
+        "event_id": "sfe_3244cc89197e",
+        "iteration": 1,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 0,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      }
+    ],
+    "last_pytest": {
+      "passed": false,
+      "returncode": 1,
+      "stdout": "F                                                                        [100%]\n================================== FAILURES ===================================\n_________________________________ test_value __________________________________\n\n    def test_value():\n>       assert False\nE       assert False\n\ntest_target.py:2: AssertionError\n=========================== short test summary info ===========================\nFAILED test_target.py::test_value - assert False\n1 failed in 1.20s\n",
+      "stderr": "",
+      "attempts": 1,
+      "retry_rounds": 0,
+      "timeout_kind": null,
+      "timeout_reason": null,
+      "timeout_likely_location": null,
+      "timeout_should_repair": true
+    },
+    "last_coverage": {
+      "valid": false,
+      "percent": 0.0
+    },
+    "last_mutation": {
+      "valid": false,
+      "score": null,
+      "evaluation_profile": "screening",
+      "final_evaluation": false,
+      "skipped": true,
+      "skipped_reason": "baseline_not_runnable"
+    },
+    "last_test_usability": {
+      "test_count": 1,
+      "assertion_count": 1,
+      "normal_behavior_tests": 0,
+      "exception_tests": 0,
+      "weak_assertions": 1,
+      "weak_assertions_only": true,
+      "exception_only": false
+    },
+    "last_runtime_observations": [],
+    "last_report": {
+      "pytest_passed": false,
+      "coverage_percent": 0.0,
+      "line_coverage": 0.0,
+      "branch_coverage": null,
+      "combined_coverage": 0.0,
+      "mutation_score": null,
+      "sfc": 0.0,
+      "ae": 0.0,
+      "sfq": 0.0,
+      "tsq": 0.0,
+      "pv": 0.0,
+      "nrr": 1.0,
+      "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\test_target.py",
+      "failure_category": "oracle_error",
+      "failed_tests": [
+        {
+          "nodeid": "test_target.py::test_value",
+          "test_name": "test_value",
+          "line": null,
+          "actual": null,
+          "expected": null,
+          "message": null,
+          "code": "def test_value():\n    assert False"
+        }
+      ],
+      "coverage_valid": false,
+      "mutation_valid": false,
+      "quality_status": "invalid",
+      "next_allowed_agents": [
+        "OracleRepairAgent",
+        "TestValidityAgent"
+      ],
+      "collected_count": 1,
+      "timed_out": false,
+      "effective_mutants": 0,
+      "mutation_reliability": "unavailable",
+      "weak_assertions_only": true,
+      "exception_only": false,
+      "normal_behavior_tests": 0,
+      "assertion_count": 1,
+      "weak_assertions": 1,
+      "effective_assertions": 0,
+      "assertion_quality_explanation": "断言存在但全部被识别为弱断言，例如恒真、None 比较或只检查对象存在",
+      "sfc_components": {},
+      "timeout_kind": null,
+      "timeout_reason": null,
+      "timeout_likely_location": null,
+      "timeout_should_repair": true,
+      "weak_quality_flags": [],
+      "threshold_failures": {},
+      "failure_location": null,
+      "repair_failure_reason": null,
+      "evaluation_profile": "screening",
+      "mutation_complete": false,
+      "cache_hit": false,
+      "mutation_evidence": {},
+      "quality_assessment": {}
+    },
+    "last_execution_result": {
+      "pytest_passed": false,
+      "coverage_percent": 0.0,
+      "line_coverage": 0.0,
+      "branch_coverage": null,
+      "combined_coverage": 0.0,
+      "mutation_score": null,
+      "sfc": 0.0,
+      "ae": 0.0,
+      "sfq": 0.0,
+      "tsq": 0.0,
+      "pv": 0.0,
+      "nrr": 1.0,
+      "test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_invalid_python_baseline_s0\\test_target.py",
+      "failure_category": "oracle_error",
+      "failed_tests": [
+        {
+          "nodeid": "test_target.py::test_value",
+          "test_name": "test_value",
+          "line": null,
+          "actual": null,
+          "expected": null,
+          "message": null,
+          "code": "def test_value():\n    assert False"
+        }
+      ],
+      "coverage_valid": false,
+      "mutation_valid": false,
+      "quality_status": "invalid",
+      "next_allowed_agents": [
+        "OracleRepairAgent",
+        "TestValidityAgent"
+      ],
+      "collected_count": 1,
+      "timed_out": false,
+      "effective_mutants": 0,
+      "mutation_reliability": "unavailable",
+      "weak_assertions_only": true,
+      "exception_only": false,
+      "normal_behavior_tests": 0,
+      "assertion_count": 1,
+      "weak_assertions": 1,
+      "effective_assertions": 0,
+      "assertion_quality_explanation": "断言存在但全部被识别为弱断言，例如恒真、None 比较或只检查对象存在",
+      "sfc_components": {},
+      "timeout_kind": null,
+      "timeout_reason": null,
+      "timeout_likely_location": null,
+      "timeout_should_repair": true,
+      "weak_quality_flags": [],
+      "threshold_failures": {},
+      "failure_location": null,
+      "repair_failure_reason": null,
+      "evaluation_profile": "screening",
+      "mutation_complete": false,
+      "cache_hit": false,
+      "mutation_evidence": {},
+      "quality_assessment": {}
+    },
+    "execution_diagnosis": {
+      "failure_category": "oracle_error",
+      "root_candidates": [
+        "test_value"
+      ],
+      "evidence_ids": [],
+      "recommended_focus": "oracle",
+      "confidence": 0.9,
+      "timeout_kind": null,
+      "timeout_reason": null,
+      "likely_location": null,
+      "should_repair": true
+    },
+    "last_root_cause": {}
+  }
+}

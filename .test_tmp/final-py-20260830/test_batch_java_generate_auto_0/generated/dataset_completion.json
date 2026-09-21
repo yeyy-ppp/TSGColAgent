@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_java_generate_auto_0\\java_project",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_java_generate_auto_0\\generated",
+  "language": "auto",
+  "execute": false,
+  "pattern": "task_*.py",
+  "recursive": true,
+  "requested_recursive": false,
+  "effective_pattern": "*.java",
+  "official_tasks": 1,
+  "selected_tasks": 1,
+  "source_signature": "b09c9ed0feb482272faab0fd5959b227dee1f30cd8cdcfbbd9dda4b1bddee7a5",
+  "source_file_count": 1,
+  "grade_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "skip_ready": false,
+  "reason": "at least one task is missing, invalid, unfinished, or the run used a limit",
+  "updated_at": "2026-08-30T08:15:34.963482+00:00"
+}

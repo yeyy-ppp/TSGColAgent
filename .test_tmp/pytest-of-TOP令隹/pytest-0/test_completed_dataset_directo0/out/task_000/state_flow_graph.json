@@ -1,0 +1,390 @@
+{
+  "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+  "version": 3,
+  "graph_version": 3,
+  "iteration": 2,
+  "timestamp": "2026-08-30T08:02:22.631303+00:00",
+  "nodes": {
+    "program:module:task_000": {
+      "node_id": "program:module:task_000",
+      "node_type": "Module",
+      "name": "task_000",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.7,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python",
+        "structured": true
+      }
+    },
+    "program:function:task_000.public:1": {
+      "node_id": "program:function:task_000.public:1",
+      "node_type": "Function",
+      "name": "public",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+      "line_start": 1,
+      "line_end": 2,
+      "code": "def public():\n    return 1",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.85,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "qualified_name": "task_000.public",
+        "visibility": "public",
+        "scope": "",
+        "args": [],
+        "arg_annotations": {},
+        "returns": null,
+        "is_static": false,
+        "is_async": false,
+        "is_generator": false,
+        "is_constructor": false,
+        "language": "python",
+        "type_parameters": [],
+        "is_override": false
+      }
+    },
+    "program:return:task_000.public:2": {
+      "node_id": "program:return:task_000.public:2",
+      "node_type": "Return",
+      "name": "1",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+      "line_start": 2,
+      "line_end": 2,
+      "code": "1",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.75,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "owner": "task_000.public",
+        "kind": "return"
+      }
+    },
+    "program:end:module": {
+      "node_id": "program:end:module",
+      "node_type": "End",
+      "name": "ModuleEnd",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.2,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python"
+      }
+    }
+  },
+  "edges": [
+    {
+      "source": "program:module:task_000",
+      "target": "program:function:task_000.public:1",
+      "edge_type": "defines",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:task_000.public:1",
+      "target": "program:return:task_000.public:2",
+      "edge_type": "return",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:task_000.public:1",
+      "target": "program:end:module",
+      "edge_type": "method_exit",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    }
+  ],
+  "history": [
+    {
+      "version": 1,
+      "timestamp": "2026-08-30T08:02:16.620035+00:00",
+      "reason": "structured context analysis completed"
+    },
+    {
+      "version": 2,
+      "timestamp": "2026-08-30T08:02:22.631303+00:00",
+      "reason": "test generation completed"
+    }
+  ],
+  "flow_history": [
+    {
+      "event_type": "ContextExtracted",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [],
+      "related_edges": [],
+      "payload": {
+        "language": "python",
+        "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+        "class_count": 0,
+        "function_count": 1,
+        "rewrite_summary": {
+          "extractor": "PythonStructuredContextExtractor",
+          "module_docstring_present": false,
+          "raw_class_count": 0,
+          "raw_function_count": 1,
+          "rewriter": "ContextRewriter",
+          "comments_and_format_noise_removed": true,
+          "signatures_normalized": true,
+          "call_and_control_flow_normalized": true,
+          "test_relevant_classes": 0,
+          "test_relevant_functions": 1
+        }
+      },
+      "iteration": 0,
+      "event_id": "sfe_e8dabf636bf2"
+    },
+    {
+      "event_type": "InitialGraphBuilt",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [
+        "program:module:task_000",
+        "program:function:task_000.public:1",
+        "program:return:task_000.public:2",
+        "program:end:module"
+      ],
+      "related_edges": [],
+      "payload": {
+        "node_count": 4,
+        "edge_count": 3
+      },
+      "iteration": 0,
+      "event_id": "sfe_b8fdf3785df2"
+    }
+  ],
+  "metadata": {
+    "graph_kind": "Test-State-Model",
+    "language": "python",
+    "structured_context": {
+      "language": "python",
+      "project_root": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources",
+      "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\sources\\task_000.py",
+      "package_or_module": "task_000",
+      "classes": [],
+      "functions": [
+        {
+          "name": "public",
+          "qualified_name": "task_000.public",
+          "visibility": "public",
+          "parameters": [],
+          "return_type": null,
+          "thrown_exceptions": [],
+          "decorators_or_annotations": [],
+          "is_static": false,
+          "is_async": false,
+          "is_constructor": false,
+          "calls": [],
+          "branches": [],
+          "loops": [],
+          "returns": [
+            {
+              "kind": "return",
+              "text": "1",
+              "line_start": 2,
+              "line_end": 2,
+              "qualified_owner": "task_000.public"
+            }
+          ],
+          "raises_or_throws": [],
+          "related_dependencies": [],
+          "line_start": 1,
+          "line_end": 2,
+          "code": "def public():\n    return 1",
+          "class_name": null,
+          "type_parameters": [],
+          "is_override": false
+        }
+      ],
+      "dependencies": [],
+      "control_structures": [],
+      "execution_fragments": [
+        {
+          "kind": "return",
+          "text": "1",
+          "line_start": 2,
+          "line_end": 2,
+          "qualified_owner": "task_000.public"
+        }
+      ],
+      "rewrite_summary": {
+        "extractor": "PythonStructuredContextExtractor",
+        "module_docstring_present": false,
+        "raw_class_count": 0,
+        "raw_function_count": 1,
+        "rewriter": "ContextRewriter",
+        "comments_and_format_noise_removed": true,
+        "signatures_normalized": true,
+        "call_and_control_flow_normalized": true,
+        "test_relevant_classes": 0,
+        "test_relevant_functions": 1
+      }
+    },
+    "analysis_strategy": "structured_context",
+    "method_core": {
+      "structured_code_analysis_and_rewrite": true,
+      "test_state_guidance": true,
+      "test_state_model": true,
+      "test_state_event_exchange": true,
+      "dynamic_validation_in_test_state_agent": true,
+      "state_positioning_repair_in_test_generation_agent": true,
+      "state_target_optimization_in_test_generation_agent": true,
+      "three_primary_agents": [
+        "TestStateAgent",
+        "TestGenerationAgent",
+        "TestKnowledgeAgent"
+      ],
+      "supported_languages": [
+        "python",
+        "java"
+      ]
+    },
+    "agent_collaboration_exchange": [
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "ContextExtracted",
+        "event_id": "sfe_e8dabf636bf2",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 0,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      },
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "InitialGraphBuilt",
+        "event_id": "sfe_b8fdf3785df2",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 4,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      }
+    ],
+    "analysis_agent": "测试状态智能体/源码分析模块",
+    "test_generation_strategy": "deterministic",
+    "test_generation_validation": {
+      "accepted": true,
+      "stage": "accepted",
+      "failure_category": null,
+      "pytest_output": "",
+      "collected_count": 1,
+      "candidate_path": null,
+      "details": {
+        "metadata": {
+          "agent": "测试生成智能体/生成模块",
+          "plan": {
+            "cases": [
+              {
+                "id": "public_case_1",
+                "function": "public",
+                "args": [],
+                "oracle": {
+                  "kind": "equals",
+                  "value": 1,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "strategy": "deterministic"
+        },
+        "test_usability": {
+          "test_count": 1,
+          "assertion_count": 1,
+          "normal_behavior_tests": 1,
+          "exception_tests": 0,
+          "weak_assertions": 0,
+          "weak_assertions_only": false,
+          "exception_only": false
+        },
+        "backup_path": null
+      }
+    },
+    "generated_test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\out\\task_000\\test_task_000_stateflow.py",
+    "generated_test_plan": {
+      "cases": [
+        {
+          "id": "public_case_1",
+          "function": "public",
+          "args": [],
+          "oracle": {
+            "kind": "equals",
+            "value": 1,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "visualization": {
+      "status": "generated",
+      "graph_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\out\\task_000\\state_flow_graph.html",
+      "graph_svg": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\out\\task_000\\state_flow_graph.svg",
+      "source_coverage_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_completed_dataset_directo0\\out\\task_000\\source_coverage.html",
+      "generated_at": "2026-08-30T08:02:22.647772+00:00"
+    }
+  }
+}

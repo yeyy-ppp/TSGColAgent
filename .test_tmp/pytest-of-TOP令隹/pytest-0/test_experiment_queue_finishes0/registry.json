@@ -1,0 +1,31 @@
+{
+  "active_id": "ed9b7bc62d64ac41",
+  "experiments": [
+    {
+      "id": "ed9b7bc62d64ac41",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_experiment_queue_finishes0\\second",
+      "label": "second",
+      "registered_at": "2026-08-30T08:02:23.840000+00:00",
+      "execution_status": "completed",
+      "queued_at": "2026-08-30T08:02:23.848522+00:00",
+      "process_id": 8940,
+      "return_code": 0,
+      "last_error": null,
+      "started_at": "2026-08-30T08:02:24.290107+00:00",
+      "finished_at": "2026-08-30T08:02:24.429777+00:00"
+    },
+    {
+      "id": "2cf6c399d9df5ebf",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_experiment_queue_finishes0\\first",
+      "label": "first",
+      "registered_at": "2026-08-30T08:02:23.831494+00:00",
+      "execution_status": "completed",
+      "queued_at": "2026-08-30T08:02:23.844010+00:00",
+      "process_id": 34668,
+      "return_code": 0,
+      "last_error": null,
+      "started_at": "2026-08-30T08:02:23.872103+00:00",
+      "finished_at": "2026-08-30T08:02:24.266528+00:00"
+    }
+  ]
+}

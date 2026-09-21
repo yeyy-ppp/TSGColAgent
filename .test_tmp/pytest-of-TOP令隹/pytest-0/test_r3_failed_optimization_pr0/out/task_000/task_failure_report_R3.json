@@ -1,0 +1,52 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\sources\\task_000.py",
+  "final_grade": "D",
+  "grade_label": "D·R3",
+  "experiment_round": 3,
+  "failure_category": "assertion_failure",
+  "failure_reason": "assertion_failure: execution_invalid",
+  "failure_stage": "test_execution",
+  "error": "execution_invalid",
+  "stop_reason": "execution_invalid",
+  "attempted_measures": [],
+  "suggested_solutions": [
+    "核对测试意图和实际行为，修正错误预期并保留有效断言。"
+  ],
+  "evidence": {},
+  "previous_solutions": [
+    "核对测试意图和实际行为，修正错误预期并保留有效断言。",
+    "下一轮生成前先检索并应用该规避措施"
+  ],
+  "grade_history": [
+    {
+      "round": 3,
+      "grade": "D",
+      "status": "execution_invalid",
+      "label": "D·R3",
+      "failure_reason": "assertion_failure: execution_invalid",
+      "metrics": {
+        "pytest_passed": false,
+        "line_coverage": null,
+        "branch_coverage": null,
+        "sfc": null,
+        "ae": null,
+        "mutation_score": null,
+        "sfq": null,
+        "tsq": null
+      },
+      "knowledge_selected_ids": []
+    }
+  ],
+  "knowledge_history": [
+    {
+      "round": 3,
+      "selected_ids": [],
+      "status": "retrieved_without_selected_match"
+    }
+  ],
+  "matched_experience_ids": [
+    "failure-095ac553b0f138c28a802271"
+  ],
+  "knowledge_record_id": "failure-095ac553b0f138c28a802271",
+  "generated_at": "2026-08-30T08:02:16.440046+00:00"
+}

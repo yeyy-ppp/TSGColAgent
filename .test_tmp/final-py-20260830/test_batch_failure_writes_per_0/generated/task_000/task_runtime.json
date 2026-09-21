@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_failure_writes_per_0\\sources\\task_000.py",
+  "sessions": [
+    {
+      "id": "fbb5c5b68ad502bdc0ce",
+      "round": 1,
+      "strategy": "initial_generation",
+      "status": "generation_failed",
+      "started_at": "2026-08-30T08:15:35.465568+00:00",
+      "finished_at": "2026-08-30T08:15:35.552906+00:00",
+      "duration_seconds": 0.0873
+    }
+  ],
+  "updated_at": "2026-08-30T08:15:35.552906+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\datasets\\HumanEvalJava",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\humaneval_sequential_audit",
+  "language": "java",
+  "execute": true,
+  "pattern": "task_*.py",
+  "recursive": true,
+  "requested_recursive": false,
+  "effective_pattern": "*.java",
+  "official_tasks": 163,
+  "selected_tasks": 2,
+  "source_signature": "d1746e2451f6861ab31eb431202e5401eb6af8bff2ee8b61cf503179c003db79",
+  "source_file_count": 163,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "D": 1,
+    "E": 0
+  },
+  "skip_ready": false,
+  "reason": "at least one task is missing, invalid, unfinished, or the run used a limit",
+  "updated_at": "2026-09-01T13:33:17.918684+00:00"
+}

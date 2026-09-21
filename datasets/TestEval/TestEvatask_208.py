@@ -1,0 +1,42 @@
+import math
+import itertools
+import bisect
+import collections
+import string
+import heapq
+import functools
+import sortedcontainers
+from typing import List, Dict, Tuple, Iterator
+
+class Solution:
+  def minimumTime(self, n: int, edges: List[List[int]], disappear: List[int]) -> List[int]:
+    graph = [[] for _ in range(n)]
+
+    for u, v, w in edges:
+      graph[u].append((v, w))
+      graph[v].append((u, w))
+
+    return self._dijkstra(graph, 0, disappear)
+
+  def _dijkstra(self, graph: List[List[Tuple[int, int]]], src: int, disappear: List[int]) -> List[int]:
+    dist = [math.inf] * len(graph)
+
+    dist[src] = 0
+    minHeap = [(dist[src], src)]
+
+    while minHeap:
+      d, u = heapq.heappop(minHeap)
+      if d > dist[u]:
+        continue
+      for v, w in graph[u]:
+        if d + w < disappear[v] and d + w < dist[v]:
+          dist[v] = d + w
+          heapq.heappush(minHeap, (dist[v], v))
+
+    res=[]
+    for d in dist:
+      if d != math.inf:
+        res.append(d)
+      else:
+        res.append(-1)
+    return res

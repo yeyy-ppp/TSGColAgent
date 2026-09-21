@@ -1,0 +1,42 @@
+{
+  "name": "测试知识引导库",
+  "generated_at": "2026-08-30T08:15:35.633430+00:00",
+  "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_failure_writes_per_0\\knowledge_store\\test_knowledge_guidance.json",
+  "knowledge_count": 1,
+  "adopted": 0,
+  "learning": 0,
+  "pending_review": 0,
+  "avoid": 1,
+  "application_count": 1,
+  "knowledge": [
+    {
+      "knowledge_id": "TKG-0001",
+      "language": "python",
+      "problem_type": "generation_failed",
+      "strategy": "读取生成阶段和候选验证证据，修复明确原因后重新生成可执行测试。",
+      "learning_status": "应避免",
+      "application_count": 1,
+      "independent_tasks": 1,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "average_quality_gain": -1.0,
+      "confidence": 0.2,
+      "last_updated": 1788077735.4850986
+    }
+  ],
+  "applications": [
+    {
+      "source": "task_000.py",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避generation_failed失败",
+      "failure_category": "generation_failed",
+      "experience_id": "failure-725ddabad6494a4a9c7ca2aa",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": -1.0,
+      "effective": false,
+      "timestamp": 1788077735.4850986,
+      "application_count": 1
+    }
+  ]
+}

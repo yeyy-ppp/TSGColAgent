@@ -1,0 +1,256 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources\\task_098.py",
+  "stop_reason": "generation_failed",
+  "last_error": "candidate_rejected: generated candidate has no normal behavior assertion",
+  "failure_evidence": {
+    "stage": "semantic_usability",
+    "candidate_validation": {
+      "accepted": false,
+      "stage": "semantic_usability",
+      "failure_category": "candidate_rejected"
+    }
+  },
+  "round_failure_diagnostic": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources\\task_098.py",
+    "final_grade": "E",
+    "grade_label": "E·R1",
+    "experiment_round": 1,
+    "failure_category": "no_normal_behavior",
+    "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+    "failure_stage": "semantic_usability",
+    "error": "candidate_rejected: generated candidate has no normal behavior assertion",
+    "stop_reason": "generation_failed",
+    "attempted_measures": [
+      "测试生成智能体已执行候选验证（阶段：semantic_usability）"
+    ],
+    "suggested_solutions": [
+      "为每个可测试公开目标补充至少一个正常行为测试。"
+    ],
+    "evidence": {
+      "stage": "semantic_usability",
+      "candidate_validation": {
+        "accepted": false,
+        "stage": "semantic_usability",
+        "failure_category": "candidate_rejected"
+      }
+    },
+    "previous_solutions": [
+      "为每个可测试公开目标补充至少一个正常行为测试。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "E",
+        "status": "generation_failed",
+        "label": "E·R1",
+        "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+        "metrics": {
+          "pytest_passed": null,
+          "line_coverage": null,
+          "branch_coverage": null,
+          "sfc": null,
+          "ae": null,
+          "mutation_score": null,
+          "sfq": null,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-ee050a08b223eca93019b155"
+    ],
+    "knowledge_record_id": "failure-ee050a08b223eca93019b155",
+    "generated_at": "2026-08-30T08:15:42.008291+00:00"
+  },
+  "round_failure_history": [
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources\\task_098.py",
+      "final_grade": "E",
+      "grade_label": "E·R1",
+      "experiment_round": 1,
+      "failure_category": "no_normal_behavior",
+      "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+      "failure_stage": "semantic_usability",
+      "error": "candidate_rejected: generated candidate has no normal behavior assertion",
+      "stop_reason": "generation_failed",
+      "attempted_measures": [
+        "测试生成智能体已执行候选验证（阶段：semantic_usability）"
+      ],
+      "suggested_solutions": [
+        "为每个可测试公开目标补充至少一个正常行为测试。"
+      ],
+      "evidence": {
+        "stage": "semantic_usability",
+        "candidate_validation": {
+          "accepted": false,
+          "stage": "semantic_usability",
+          "failure_category": "candidate_rejected"
+        }
+      },
+      "previous_solutions": [
+        "为每个可测试公开目标补充至少一个正常行为测试。",
+        "下一轮生成前先检索并应用该规避措施"
+      ],
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "E",
+          "status": "generation_failed",
+          "label": "E·R1",
+          "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+          "metrics": {
+            "pytest_passed": null,
+            "line_coverage": null,
+            "branch_coverage": null,
+            "sfc": null,
+            "ae": null,
+            "mutation_score": null,
+            "sfq": null,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "matched_experience_ids": [
+        "failure-ee050a08b223eca93019b155"
+      ],
+      "knowledge_record_id": "failure-ee050a08b223eca93019b155",
+      "generated_at": "2026-08-30T08:15:42.008291+00:00"
+    }
+  ],
+  "visualization": {
+    "failure_report_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\out\\task_098\\task_failure_report.html"
+  },
+  "experiment_round": 1,
+  "final_grade": "E",
+  "grade_label": "E·R1",
+  "grade_history": [
+    {
+      "round": 1,
+      "grade": "E",
+      "status": "generation_failed",
+      "label": "E·R1",
+      "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+      "metrics": {
+        "pytest_passed": null,
+        "line_coverage": null,
+        "branch_coverage": null,
+        "sfc": null,
+        "ae": null,
+        "mutation_score": null,
+        "sfq": null,
+        "tsq": null
+      },
+      "knowledge_selected_ids": []
+    }
+  ],
+  "knowledge_history": [
+    {
+      "round": 1,
+      "selected_ids": [],
+      "status": "retrieved_without_selected_match"
+    }
+  ],
+  "followup_strategy": "initial_generation",
+  "quality_status": "generation_failed",
+  "started_at": "2026-08-30T08:15:41.981888+00:00",
+  "finished_at": "2026-08-30T08:15:42.017018+00:00",
+  "duration_seconds": 0.0351,
+  "cumulative_duration_seconds": 0.0351,
+  "attempt_count": 1,
+  "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+  "timing": {
+    "started_at": "2026-08-30T08:15:41.981888+00:00",
+    "finished_at": "2026-08-30T08:15:42.017018+00:00",
+    "duration_seconds": 0.0351,
+    "accumulated_duration_seconds": 0.0351,
+    "active_session_started_at": null,
+    "attempt_count": 1,
+    "sessions": [
+      {
+        "id": "bdbbe2b8c44422bd5672",
+        "round": 1,
+        "strategy": "initial_generation",
+        "status": "generation_failed",
+        "started_at": "2026-08-30T08:15:41.981888+00:00",
+        "finished_at": "2026-08-30T08:15:42.017018+00:00",
+        "duration_seconds": 0.0351
+      }
+    ]
+  },
+  "experiment_outcome": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_first_round_e_writes_fail0\\sources\\task_098.py",
+    "final_grade": "E",
+    "grade_label": "E·R1",
+    "experiment_round": 1,
+    "failure_category": "no_normal_behavior",
+    "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+    "failure_stage": "semantic_usability",
+    "attempted_measures": [
+      "测试生成智能体已执行候选验证（阶段：semantic_usability）"
+    ],
+    "suggested_solutions": [
+      "为每个可测试公开目标补充至少一个正常行为测试。"
+    ],
+    "evidence": {
+      "stage": "semantic_usability",
+      "candidate_validation": {
+        "accepted": false,
+        "stage": "semantic_usability",
+        "failure_category": "candidate_rejected"
+      }
+    },
+    "previous_solutions": [
+      "为每个可测试公开目标补充至少一个正常行为测试。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "E",
+        "status": "generation_failed",
+        "label": "E·R1",
+        "failure_reason": "no_normal_behavior: candidate_rejected: generated candidate has no normal behavior assertion",
+        "metrics": {
+          "pytest_passed": null,
+          "line_coverage": null,
+          "branch_coverage": null,
+          "sfc": null,
+          "ae": null,
+          "mutation_score": null,
+          "sfq": null,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-ee050a08b223eca93019b155"
+    ],
+    "error": "candidate_rejected: generated candidate has no normal behavior assertion",
+    "generated_at": "2026-08-30T08:15:42.055883+00:00"
+  }
+}

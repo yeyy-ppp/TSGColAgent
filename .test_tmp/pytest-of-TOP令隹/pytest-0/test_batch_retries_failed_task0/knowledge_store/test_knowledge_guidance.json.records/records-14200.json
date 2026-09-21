@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "record_type": "task_failure",
+      "experience_id": "failure-3fa30ced06c0c3620e25ca83",
+      "timestamp": 1788076933.8284285,
+      "model": "deepseek-r1:14b",
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources\\task_000.py",
+      "language": "python",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避timeout失败",
+      "experiment_round": 1,
+      "failure_category": "timeout",
+      "failure_stage": "test_execution",
+      "rejection_reason": "timeout: execution_invalid",
+      "solution": "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。",
+      "error": "execution_invalid",
+      "candidate_status": "rejected",
+      "learning_stage": "avoid",
+      "accepted": false,
+      "reward": -1.0,
+      "prompt_reminders": [
+        "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。"
+      ],
+      "learning_notes": [
+        {
+          "reason": "timeout: execution_invalid",
+          "solution": "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。",
+          "action": "下一轮生成前先检索并应用该规避措施"
+        }
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076933.8652549,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\generated",
+      "total": 1,
+      "succeeded": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "failure_categories": {
+        "timeout": 1
+      },
+      "failed_tasks": [
+        "task_000.py"
+      ],
+      "timeout_tasks": [
+        "task_000.py"
+      ],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_000.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "上一批出现测试执行超时。下一轮应优先生成小规模输入，避免大范围循环、递归深度过大、无限迭代和真实网络/文件系统等待；对可疑函数先用边界小样本验证，再逐步扩展。",
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "failure",
+          "reason_type": "timeout",
+          "cause": "The test input or target call caused long execution, recursion, loop expansion, or external waiting.",
+          "solution": "Minimize input size and bound loops/recursion-triggering cases; avoid file/network waits.",
+          "reminder": "Reason: timeout. Cause: The test input or target call caused long execution, recursion, loop expansion, or external waiting. Solution: Minimize input size and bound loops/recursion-triggering cases; avoid file/network waits.",
+          "evidence": {
+            "count": 1
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_000.py"
+            ]
+          }
+        },
+        {
+          "lesson_type": "failure",
+          "reason_type": "timeout_or_mutation_timeout",
+          "cause": "Some generated tests or mutation runs timed out.",
+          "solution": "Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+          "reminder": "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it.",
+          "evidence": {
+            "pytest_timeout_count": 1,
+            "mutation_timeout_count": 0
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: timeout. Cause: The test input or target call caused long execution, recursion, loop expansion, or external waiting. Solution: Minimize input size and bound loops/recursion-triggering cases; avoid file/network waits.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+        "Reason: timeout_or_mutation_timeout. Cause: Some generated tests or mutation runs timed out. Solution: Use short strings, small lists, shallow recursion bounds, and avoid network/file waiting unless the source explicitly requires it."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076933.9108992,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\generated",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [],
+      "learning_notes": [],
+      "prompt_reminders": []
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076933.9270277,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\generated",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [],
+      "learning_notes": [],
+      "prompt_reminders": []
+    }
+  ]
+}

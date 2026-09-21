@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\sources",
+  "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\out",
+  "language": "auto",
+  "execute": true,
+  "pattern": "task_*.py",
+  "recursive": false,
+  "requested_recursive": false,
+  "effective_pattern": "task_*.py",
+  "official_tasks": 1,
+  "selected_tasks": 1,
+  "source_signature": "a512cb29c4a9a541a6f4cede0e5c32d0b065691c64d93363c9c4812378c5b6ef",
+  "source_file_count": 1,
+  "grade_counts": {
+    "A": 0,
+    "B": 0,
+    "C": 1,
+    "D": 0,
+    "E": 0
+  },
+  "skip_ready": true,
+  "reason": "all eligible tasks have A/B/C results",
+  "updated_at": "2026-08-30T08:02:16.556777+00:00"
+}

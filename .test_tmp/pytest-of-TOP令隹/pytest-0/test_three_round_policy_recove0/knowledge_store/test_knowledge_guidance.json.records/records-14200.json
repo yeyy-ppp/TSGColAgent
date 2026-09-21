@@ -1,0 +1,245 @@
+{
+  "records": [
+    {
+      "record_type": "task_failure",
+      "experience_id": "failure-2c2e85a16210e2aa8f4110d7",
+      "timestamp": 1788076936.014393,
+      "model": "deepseek-r1:14b",
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources\\task_000.py",
+      "language": "python",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避runtime_error失败",
+      "experiment_round": 1,
+      "failure_category": "runtime_error",
+      "failure_stage": "test_execution",
+      "rejection_reason": "runtime_error: execution_invalid",
+      "solution": "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。",
+      "error": "execution_invalid",
+      "candidate_status": "rejected",
+      "learning_stage": "avoid",
+      "accepted": false,
+      "reward": -1.0,
+      "prompt_reminders": [
+        "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。"
+      ],
+      "learning_notes": [
+        {
+          "reason": "runtime_error: execution_invalid",
+          "solution": "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。",
+          "action": "下一轮生成前先检索并应用该规避措施"
+        }
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076936.0550294,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\out",
+      "total": 1,
+      "succeeded": 0,
+      "failed": 1,
+      "success_rate": 0.0,
+      "failure_categories": {
+        "runtime_error": 1
+      },
+      "failed_tasks": [
+        "task_000.py"
+      ],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_000.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "failure",
+          "reason_type": "runtime_error",
+          "cause": "The test called the target with invalid objects, invalid argument types, or an unsupported environment.",
+          "solution": "Infer constructor and argument types from structured context before calling; use small valid objects.",
+          "reminder": "Reason: runtime_error. Cause: The test called the target with invalid objects, invalid argument types, or an unsupported environment. Solution: Infer constructor and argument types from structured context before calling; use small valid objects.",
+          "evidence": {
+            "count": 1
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_000.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: runtime_error. Cause: The test called the target with invalid objects, invalid argument types, or an unsupported environment. Solution: Infer constructor and argument types from structured context before calling; use small valid objects.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076936.1137228,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\out",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_000.py"
+      ],
+      "weak_success_tasks": [
+        {
+          "source": "task_000.py",
+          "weak_quality_flags": [],
+          "threshold_failures": {}
+        }
+      ],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "valid_but_weak_success",
+          "cause": "Some tasks were executable and therefore usable, but did not reach the strong quality threshold.",
+          "solution": "Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+          "reminder": "Reason: valid_but_weak_success. Cause: Some tasks were executable and therefore usable, but did not reach the strong quality threshold. Solution: Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              {
+                "source": "task_000.py",
+                "weak_quality_flags": [],
+                "threshold_failures": {}
+              }
+            ]
+          }
+        },
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_000.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: valid_but_weak_success. Cause: Some tasks were executable and therefore usable, but did not reach the strong quality threshold. Solution: Treat them as successful baselines, then optimize only the reported weak dimensions without deleting passing tests.",
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076936.180061,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\out",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_000.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_000.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    },
+    {
+      "record_type": "batch_summary",
+      "timestamp": 1788076936.196768,
+      "model": "deepseek-r1:14b",
+      "source_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources",
+      "output_dir": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\out",
+      "total": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "success_rate": 1.0,
+      "failure_categories": {},
+      "failed_tasks": [],
+      "timeout_tasks": [],
+      "mutation_timeout_tasks": [],
+      "rejected_low_quality": [],
+      "low_mutation_reliability_tasks": [
+        "task_000.py"
+      ],
+      "weak_success_tasks": [],
+      "weak_quality_flag_counts": {},
+      "threshold_gap_counts": {},
+      "guidance": [
+        "变异证据经常是低样本。原因通常是源码可变异位置少、变异超时、无效变异或测试没有区分分支；下一轮应补边界输入、分支区分断言和杀变异断言。"
+      ],
+      "learning_notes": [
+        {
+          "lesson_type": "optimization",
+          "reason_type": "low_mutation_reliability",
+          "cause": "Mutation evidence was weak or unavailable on several tasks.",
+          "solution": "Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "reminder": "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so.",
+          "evidence": {
+            "count": 1,
+            "examples": [
+              "task_000.py"
+            ]
+          }
+        }
+      ],
+      "prompt_reminders": [
+        "Reason: low_mutation_reliability. Cause: Mutation evidence was weak or unavailable on several tasks. Solution: Prefer branch-distinguishing assertions and small deterministic inputs; report mutation as unavailable only after the tool evidence says so."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "chats": [
+    {
+      "id": "chat_6814fa644c19",
+      "title": "sample_target.py 的覆盖率、AE…",
+      "created_at": "2026-08-23T20:12:30.608376+00:00",
+      "updated_at": "2026-08-26T05:23:57.599985+00:00",
+      "bound_experiment": null,
+      "bound_task": null,
+      "messages": [
+        {
+          "id": "msg_a39d8b0f8451",
+          "role": "user",
+          "content": "sample_target.py 的覆盖率、AE 和变异得分是多少？",
+          "created_at": "2026-08-23T20:12:30.840150+00:00"
+        },
+        {
+          "id": "msg_38da86ec7d33",
+          "role": "assistant",
+          "content": "当前任务 sample_target.py 为 A·R1。行覆盖率 100.00%，分支覆盖率 100.00%，状态覆盖率 100.00%，断言有效性 93.66%，变异得分 100.00%，测试状态质量 98.73%。这些都是该单任务的实际值，不是平均值。",
+          "created_at": "2026-08-23T20:12:30.858636+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\stateflow_summary.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\state_flow_graph.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "context": {
+            "experiment_id": "0bc802c8f5f35dbb",
+            "task_id": "feee3e23d83b0f66",
+            "label": "sample_target.py"
+          }
+        },
+        {
+          "id": "msg_f979e7a21a13",
+          "role": "user",
+          "content": "你是什么模型？",
+          "created_at": "2026-08-23T20:28:48.231641+00:00"
+        },
+        {
+          "id": "msg_508278713718",
+          "role": "assistant",
+          "content": "当前未启用大模型。我可以直接查询实验进度、单任务报告、覆盖率、变异得分、失败原因和测试知识引导库；开放式单元测试咨询需要启用LLM后回答。",
+          "created_at": "2026-08-23T20:28:48.246694+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\stateflow_summary.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\state_flow_graph.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "context": {
+            "experiment_id": "0bc802c8f5f35dbb",
+            "task_id": "feee3e23d83b0f66",
+            "label": "sample_target.py"
+          }
+        },
+        {
+          "id": "msg_70210da54545",
+          "role": "user",
+          "content": "简单介绍一下单元测试的概念和原理。",
+          "created_at": "2026-08-23T20:39:38.248218+00:00"
+        },
+        {
+          "id": "msg_f418ad33159d",
+          "role": "assistant",
+          "content": "当前未启用大模型。我可以直接查询实验进度、单任务报告、覆盖率、变异得分、失败原因和测试知识引导库；开放式单元测试咨询需要启用LLM后回答。",
+          "created_at": "2026-08-23T20:39:38.259700+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\stateflow_summary.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\state_flow_graph.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "context": {
+            "experiment_id": "0bc802c8f5f35dbb",
+            "task_id": "feee3e23d83b0f66",
+            "label": "sample_target.py"
+          }
+        },
+        {
+          "id": "msg_b01dca60eef2",
+          "role": "user",
+          "content": "总覆盖率是多少",
+          "created_at": "2026-08-23T20:39:51.013521+00:00"
+        },
+        {
+          "id": "msg_c9b179a215f5",
+          "role": "assistant",
+          "content": "当前任务 sample_target.py 为 A·R1。行覆盖率 100.00%，分支覆盖率 100.00%，状态覆盖率 100.00%，断言有效性 93.66%，变异得分 100.00%，测试状态质量 98.73%。这些都是该单任务的实际值，不是平均值。",
+          "created_at": "2026-08-23T20:39:51.024979+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\stateflow_summary.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\_frontend_live_python\\state_flow_graph.json",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "context": {
+            "experiment_id": "0bc802c8f5f35dbb",
+            "task_id": "feee3e23d83b0f66",
+            "label": "sample_target.py"
+          }
+        },
+        {
+          "id": "msg_1ced7bacd7b5",
+          "role": "user",
+          "content": "介绍一下该系统",
+          "created_at": "2026-08-26T05:23:57.576915+00:00"
+        },
+        {
+          "id": "msg_b224da4cb44c",
+          "role": "assistant",
+          "content": "当前未启用大模型。我可以直接查询实验进度、单任务报告、覆盖率、变异得分、失败原因和测试知识引导库；开放式单元测试咨询需要启用LLM后回答。",
+          "created_at": "2026-08-26T05:23:57.599985+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "learning": null,
+          "context": {
+            "experiment_id": null,
+            "task_id": null,
+            "label": "通用单元测试知识"
+          }
+        }
+      ],
+      "context_label": "通用单元测试知识"
+    },
+    {
+      "id": "chat_1d4d594e4cd7",
+      "title": "概括当前实验结果",
+      "created_at": "2026-08-30T17:34:32.972107+00:00",
+      "updated_at": "2026-08-30T17:40:43.676790+00:00",
+      "bound_experiment": null,
+      "bound_task": null,
+      "messages": [
+        {
+          "id": "msg_42e77bd691d6",
+          "role": "user",
+          "content": "概括当前实验结果",
+          "created_at": "2026-08-30T17:40:36.478749+00:00"
+        },
+        {
+          "id": "msg_2b9c5dfaee51",
+          "role": "assistant",
+          "content": "当前实验共有 0 个任务，完整执行 0 个，未完整执行 0 个，进入后续轮次 0 个。",
+          "created_at": "2026-08-30T17:40:43.676790+00:00",
+          "agent": "测试知识智能体",
+          "sources": [
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\knowledge_store\\test_knowledge_guidance.json"
+          ],
+          "model_used": false,
+          "learning": null,
+          "context": {
+            "experiment_id": null,
+            "task_id": null,
+            "label": "通用单元测试知识"
+          }
+        }
+      ],
+      "context_label": "通用单元测试知识"
+    }
+  ]
+}

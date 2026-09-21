@@ -1,0 +1,42 @@
+{
+  "name": "测试知识引导库",
+  "generated_at": "2026-08-30T08:02:16.244694+00:00",
+  "knowledge_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\knowledge_store\\test_knowledge_guidance.json",
+  "knowledge_count": 1,
+  "adopted": 0,
+  "learning": 0,
+  "pending_review": 0,
+  "avoid": 1,
+  "application_count": 1,
+  "knowledge": [
+    {
+      "knowledge_id": "TKG-0001",
+      "language": "python",
+      "problem_type": "runtime_error",
+      "strategy": "根据首个运行异常定位输入、调用方式或环境问题，并执行状态定位修复。",
+      "learning_status": "应避免",
+      "application_count": 1,
+      "independent_tasks": 1,
+      "success_count": 0,
+      "success_rate": 0.0,
+      "average_quality_gain": -1.0,
+      "confidence": 0.2,
+      "last_updated": 1788076936.014393
+    }
+  ],
+  "applications": [
+    {
+      "source": "task_000.py",
+      "agent": "TestKnowledgeAgent",
+      "action": "规避runtime_error失败",
+      "failure_category": "runtime_error",
+      "experience_id": "failure-2c2e85a16210e2aa8f4110d7",
+      "before_quality": null,
+      "after_quality": null,
+      "reward": -1.0,
+      "effective": false,
+      "timestamp": 1788076936.014393,
+      "application_count": 1
+    }
+  ]
+}

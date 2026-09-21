@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1448" height="1086" viewBox="0 0 1448 1086">
+  <image x="0" y="0" width="1448" height="1086" xlink:href="图3_测试状态智能体机制_原图.png"/>
+  <rect x="0" y="0" width="1448" height="112" fill="#ffffff"/>
+  <text x="724" y="54" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#111111">图3 测试状态智能体：状态引导与任务规划机制</text>
+  <text x="724" y="92" text-anchor="middle" font-family="Times New Roman, serif" font-size="25" fill="#596171">Test State Agent: State Guidance and Task Planning</text>
+</svg>

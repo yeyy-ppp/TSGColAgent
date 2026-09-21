@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "language": "java",
+  "task_workers": 2,
+  "python_parallel": false,
+  "java_parallel": true,
+  "llm_concurrency": 2,
+  "selected_tasks": 2,
+  "resumed_tasks": 0,
+  "started_at": "2026-09-04T04:58:10.517441+00:00",
+  "first_started_at": "2026-09-04T04:58:10.517441+00:00",
+  "active_session_started_at": null,
+  "accumulated_duration_before_session": 0.0,
+  "session_duration_seconds": 27.7351,
+  "duration_seconds": 27.7351,
+  "cumulative_duration_seconds": 27.7351,
+  "finished_at": "2026-09-04T04:58:38.252575+00:00",
+  "knowledge_store": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\knowledge.json"
+}

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: humaneval.correct.ADD_ELEMENTSTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.213 s <<< FAILURE! -- in humaneval.correct.ADD_ELEMENTSTest
+humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1 -- Time elapsed: 0.066 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:75)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:58)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3228)
+	at humaneval.correct.ADD_ELEMENTSTest.aDD_ELEMENTS_add_elements_1_numericResult_1(ADD_ELEMENTSTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at humaneval.correct.ADD_ELEMENTS.add_elements(ADD_ELEMENTS.java:9)
+	at humaneval.correct.ADD_ELEMENTSTest.lambda$aDD_ELEMENTS_add_elements_1_numericResult_1$0(ADD_ELEMENTSTest.java:15)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:71)
+	... 6 more
+

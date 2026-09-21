@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "language": "auto",
+  "task_workers": 1,
+  "python_parallel": false,
+  "java_parallel": false,
+  "llm_concurrency": 2,
+  "selected_tasks": 1,
+  "resumed_tasks": 0,
+  "started_at": "2026-08-30T08:02:16.313600+00:00",
+  "first_started_at": "2026-08-30T08:02:16.313600+00:00",
+  "active_session_started_at": null,
+  "accumulated_duration_before_session": 0.0,
+  "session_duration_seconds": 0.1786,
+  "duration_seconds": 0.1786,
+  "cumulative_duration_seconds": 0.1786,
+  "finished_at": "2026-08-30T08:02:16.492195+00:00",
+  "knowledge_store": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\knowledge_store\\test_knowledge_guidance.json"
+}

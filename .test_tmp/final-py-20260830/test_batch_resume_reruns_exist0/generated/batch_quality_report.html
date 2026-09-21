@@ -1,0 +1,48 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>批量测试质量总报告</title><style>
+:root{--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--bg:#f6f8fc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.55}
+.wrap{max-width:1180px;margin:auto;padding:28px 22px 60px}
+.hero{background:linear-gradient(135deg,#111827,#312e81);color:#fff;border-radius:22px;padding:32px;box-shadow:0 20px 45px #1e1b4b20}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:#c7d2fe}
+h1{margin:7px 0 10px;font-size:31px}
+.hero p{margin:0;color:#e0e7ff;overflow-wrap:anywhere}
+.verdict{display:inline-block;margin-top:18px;padding:8px 14px;border-radius:999px;font-weight:700}
+.verdict.good{background:#dcfce7;color:#166534}.verdict.warn{background:#fef3c7;color:#92400e}.verdict.danger{background:#fee2e2;color:#991b1b}
+.metrics{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:18px 0}.secondary{margin-top:-6px}
+.metric,.panel{background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 7px 25px #0f172a0b}
+.metric{padding:16px;min-width:0}.metric small{display:block;color:var(--muted);font-size:12px}.metric strong{display:block;font-size:23px;margin-top:6px;overflow-wrap:anywhere}
+.panel{padding:22px;margin-top:16px}h2{font-size:20px;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 16px}
+.risks{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.risk{border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:1fr auto;gap:4px}.risk b{overflow-wrap:anywhere}.risk small{color:var(--muted);grid-column:1/-1}
+.badge{align-self:center;padding:5px 9px;border-radius:999px;font-size:12px;font-weight:700}.badge.ok{background:#dcfce7;color:#166534}.badge.off{background:#fee2e2;color:#991b1b}
+.snapshot svg{width:100%;height:auto;border-radius:16px}details{margin-top:16px}summary{cursor:pointer;font-weight:700;padding:8px 0}
+.search{width:100%;padding:11px 13px;border:1px solid #cbd5e1;border-radius:10px;margin:10px 0}
+.table-wrap{overflow:auto;max-height:520px}.table-wrap.source{max-height:76vh}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{position:sticky;top:0;background:#f8fafc;white-space:nowrap}.compact{min-width:1120px}.fail-table{min-width:880px}
+code{font-size:11px;color:#475569}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px}.dot.ok{background:#16a34a}.dot.off{background:#cbd5e1}.dot.evidence{background:#6366f1}
+.help{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.help div,.formula,.kv{padding:14px;background:#f8fafc;border-radius:12px}.formula,.kv{display:grid;grid-template-columns:140px 1fr;gap:10px 14px}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}.legend span,.tag,.status{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;margin:2px}
+.l-covered{background:#dcfce7;color:#166534}.l-uncovered{background:#f1f5f9;color:#64748b}
+.branch{background:#fef3c7;color:#92400e}.branch.warn{background:#e5e7eb;color:#4b5563}
+.assertion{background:#ede9fe;color:#5b21b6}.assertion.strong{background:#dbeafe;color:#1d4ed8}
+.killed{background:#dcfce7;color:#166534}.mutation{background:#ffedd5;color:#9a3412}.timeout{background:#e0e7ff;color:#3730a3}.invalid-mut{background:#e5e7eb;color:#374151}.infra-mut{background:#fee2e2;color:#991b1b}.equiv-mut{background:#f1f5f9;color:#475569}
+.weak{background:#fee2e2;color:#991b1b}.attention{background:#fef9c3;color:#854d0e}.defect{background:#fee2e2;color:#991b1b}
+.modebar{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.modebar button{appearance:none;border:1px solid #cbd5e1;background:#fff;color:#334155;border-radius:999px;padding:7px 12px;font:inherit;font-size:13px;cursor:pointer}.modebar button.active{border-color:#2563eb;background:#dbeafe;color:#1d4ed8;font-weight:700}.modebar button:hover{border-color:#2563eb}
+tr.covered td:last-child{background:#f0fdf4;border-left:4px solid #22c55e}
+tr.uncovered td:last-child{background:#f8fafc;color:#94a3b8;border-left:4px solid #cbd5e1}
+tr.neutral td:last-child{background:#fff;color:#94a3b8;border-left:4px solid #e2e8f0}
+body[data-view="branch"] tr td:last-child,body[data-view="assertion"] tr td:last-child,body[data-view="mutation"] tr td:last-child,body[data-view="risk"] tr td:last-child{background:#fff;color:inherit;border-left:4px solid #e2e8f0}
+body[data-view="line"] .tag:not([data-metric="line"]),body[data-view="line"] td:nth-child(3){display:none}
+footer{color:var(--muted);font-size:12px;margin-top:24px}a{color:#4338ca}
+@media(max-width:950px){.metrics{grid-template-columns:repeat(3,1fr)}.risks,.help{grid-template-columns:1fr}.formula,.kv{grid-template-columns:1fr}}
+@media(max-width:560px){.metrics{grid-template-columns:1fr}h1{font-size:25px}}
+</style></head><body><main class="wrap">
+<section class="hero"><div class="eyebrow">TSG 批量总报告</div><h1>批量测试质量总览</h1><p>总任务 = A + B + C + D + E；已完整执行 = A + B + C。轮次标记表示任务最后参与的实验轮次；本页带“平均”的指标按全部有效任务汇总，表格与单任务报告显示每个任务自己的实际值。</p></section>
+<section class="metrics"><div class="metric"><small>总任务</small><strong>1</strong></div><div class="metric"><small>已完整执行 A+B+C</small><strong>1</strong></div><div class="metric"><small>未完整执行 D+E</small><strong>0</strong></div><div class="metric"><small>A 高质量</small><strong>1</strong></div><div class="metric"><small>B 良好</small><strong>0</strong></div><div class="metric"><small>C 可用</small><strong>0</strong></div></section>
+<section class="metrics secondary"><div class="metric"><small>D 无效</small><strong>0</strong></div><div class="metric"><small>E 未完成</small><strong>0</strong></div><div class="metric"><small>进入后续轮次的任务数</small><strong>0</strong></div><div class="metric"><small>后续轮次累计执行次数</small><strong>0</strong></div><div class="metric"><small>恢复为有效结果</small><strong>0</strong></div><div class="metric"><small>质量提升</small><strong>0</strong></div></section>
+<section class="metrics secondary"><div class="metric"><small>有效断言总数</small><strong>1</strong></div><div class="metric"><small>弱断言总数</small><strong>0</strong></div><div class="metric"><small>变异评分任务</small><strong>1</strong></div></section>
+<section class="metrics secondary"><div class="metric"><small>平均行覆盖</small><strong>100%</strong></div><div class="metric"><small>平均分支覆盖</small><strong>100%</strong></div><div class="metric"><small>平均 SFC</small><strong>100%</strong></div><div class="metric"><small>平均 AE</small><strong>100%</strong></div><div class="metric"><small>平均变异检出</small><strong>100%</strong></div><div class="metric"><small>平均 TSQ</small><strong>100%</strong></div></section>
+<section class="panel"><h2>运行与知识</h2><div class="kv"><b>开始时间</b><span>2026-08-30T08:15:35.334169+00:00</span><b>结束时间</b><span>2026-08-30T08:15:35.381131+00:00</span><b>运行时长</b><span>0秒</span><b>测试知识引导库</b><span><a href="file:///D:/2025_7_8/17/0707_agent_project/My_Mutil_Agent_7_fixed/My_Mutil_Agent0830/My_Mutil_Agent/.test_tmp/final-py-20260830/test_batch_resume_reruns_exist0/knowledge_store/test_knowledge_guidance_library.html">打开测试知识引导库</a></span></div></section>
+<section class="panel"><h2>批量经验</h2><p class="sub">本次运行已写入机器经验库。失败类别：暂无失败类别。</p><ul><li>暂无新的批量经验</li></ul></section><section class="panel"><h2>已完整执行任务（A/B/C）</h2><div class="table-wrap"><table class="compact"><thead><tr><th>源码</th><th>最终等级</th><th>等级轨迹</th><th>行覆盖</th><th>分支覆盖</th><th>SFC</th><th>AE</th><th>有效断言</th><th>变异</th><th>TSQ</th><th>说明</th><th>报告</th></tr></thead><tbody><tr><td>task_000.py</td><td><b>A·R1</b></td><td>A</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>1</td><td>100%</td><td>100%</td><td>测试可运行，指标来自真实执行</td><td>无</td></tr></tbody></table></div></section>
+<section class="panel"><h2>D/E失败与未完成任务</h2><div class="table-wrap"><table class="compact fail-table"><thead><tr><th>源码</th><th>最终等级</th><th>等级轨迹</th><th>具体失败原因</th><th>之前的解决措施</th><th>任务报告</th><th>失败报告</th><th>输出目录</th></tr></thead><tbody><tr><td colspan="8">暂无D/E任务</td></tr></tbody></table></div></section>
+<section class="panel"><h2>计算说明</h2><p class="sub">TSQ = 0.30 × SFC + 0.20 × AE + 0.20 × MS + 0.15 × PV + 0.15 × NRR；无有效变异时重新归一化。只有测试可运行、存在正常行为和有效断言时才能进入A/B/C。</p></section><footer>离线报告，生成时间 2026-08-30T08:15:35.411824+00:00</footer></main></body></html>

@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "record_type": "conversation_concept",
+      "experience_id": "conversation-concept:a9a7f58b680f37b50326",
+      "timestamp": 1788076943.6133752,
+      "source": "conversation:chat-1",
+      "model": "test-model",
+      "project_version": "pteg-agent-v3",
+      "agent": "TestKnowledgeAgent",
+      "action": "概念学习：变异测试与存活变异体",
+      "topic": "变异测试与存活变异体",
+      "question": "怎样提高Java的PIT变异检测率？",
+      "solution": "针对存活变异体补充分支输入，并使用可区分运算符变化的具体断言。",
+      "language": "java",
+      "candidate_status": "adopted",
+      "learning_stage": "adopted",
+      "accepted": true,
+      "reward": 0.2,
+      "validation_count": 2,
+      "validation_failure_count": 0,
+      "conversation_id": "chat-1",
+      "last_validation": {
+        "timestamp": 1788076943.6133752,
+        "successful": true,
+        "evidence": {
+          "grade": "A"
+        }
+      }
+    }
+  ]
+}

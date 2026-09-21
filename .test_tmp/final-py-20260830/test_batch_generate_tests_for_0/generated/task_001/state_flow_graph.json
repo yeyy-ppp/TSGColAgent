@@ -1,0 +1,637 @@
+{
+  "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+  "version": 3,
+  "graph_version": 3,
+  "iteration": 2,
+  "timestamp": "2026-08-30T08:15:33.171054+00:00",
+  "nodes": {
+    "program:module:task_001": {
+      "node_id": "program:module:task_001",
+      "node_type": "Module",
+      "name": "task_001",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.7,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python",
+        "structured": true
+      }
+    },
+    "program:function:task_001.is_positive:1": {
+      "node_id": "program:function:task_001.is_positive:1",
+      "node_type": "Function",
+      "name": "is_positive",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 1,
+      "line_end": 2,
+      "code": "def is_positive(value: int) -> bool:\n    return value > 0",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.85,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "qualified_name": "task_001.is_positive",
+        "visibility": "public",
+        "scope": "",
+        "args": [
+          "value"
+        ],
+        "arg_annotations": {
+          "value": "int"
+        },
+        "returns": "bool",
+        "is_static": false,
+        "is_async": false,
+        "is_generator": false,
+        "is_constructor": false,
+        "language": "python",
+        "type_parameters": [],
+        "is_override": false
+      }
+    },
+    "context:parameter:task_001.is_positive:value:1": {
+      "node_id": "context:parameter:task_001.is_positive:value:1",
+      "node_type": "Parameter",
+      "name": "value",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.4,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "type": "int",
+        "owner": "task_001.is_positive",
+        "kind": "positional"
+      }
+    },
+    "context:returntype:task_001.is_positive:bool:1": {
+      "node_id": "context:returntype:task_001.is_positive:bool:1",
+      "node_type": "ReturnType",
+      "name": "bool",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.4,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "owner": "task_001.is_positive"
+      }
+    },
+    "program:return:task_001.is_positive:2": {
+      "node_id": "program:return:task_001.is_positive:2",
+      "node_type": "Return",
+      "name": "value > 0",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 2,
+      "line_end": 2,
+      "code": "value > 0",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.75,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "owner": "task_001.is_positive",
+        "kind": "return"
+      }
+    },
+    "program:end:module": {
+      "node_id": "program:end:module",
+      "node_type": "End",
+      "name": "ModuleEnd",
+      "file_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "line_start": 1,
+      "line_end": 1,
+      "code": "",
+      "visited": false,
+      "visit_count": 0,
+      "assert_count": 0,
+      "mutation_status": "unknown",
+      "coverage_status": "uncovered",
+      "repair_flag": false,
+      "priority": 0.2,
+      "coverage_defect": 0.0,
+      "assertion_defect": 0.0,
+      "mutation_defect": 0.0,
+      "exception_defect": 0.0,
+      "type_defect": 0.0,
+      "defect_score": 0.0,
+      "metadata": {
+        "language": "python"
+      }
+    }
+  },
+  "edges": [
+    {
+      "source": "program:module:task_001",
+      "target": "program:function:task_001.is_positive:1",
+      "edge_type": "defines",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "context:parameter:task_001.is_positive:value:1",
+      "target": "program:function:task_001.is_positive:1",
+      "edge_type": "type_flow",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:task_001.is_positive:1",
+      "target": "context:returntype:task_001.is_positive:bool:1",
+      "edge_type": "type_flow",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:task_001.is_positive:1",
+      "target": "program:return:task_001.is_positive:2",
+      "edge_type": "return",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    },
+    {
+      "source": "program:function:task_001.is_positive:1",
+      "target": "program:end:module",
+      "edge_type": "method_exit",
+      "visited": false,
+      "weight": 1.0,
+      "flow_count": 0,
+      "metadata": {}
+    }
+  ],
+  "history": [
+    {
+      "version": 1,
+      "timestamp": "2026-08-30T08:15:25.497085+00:00",
+      "reason": "structured context analysis completed"
+    },
+    {
+      "version": 2,
+      "timestamp": "2026-08-30T08:15:33.171054+00:00",
+      "reason": "test generation completed"
+    }
+  ],
+  "flow_history": [
+    {
+      "event_type": "ContextExtracted",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [],
+      "related_edges": [],
+      "payload": {
+        "language": "python",
+        "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+        "class_count": 0,
+        "function_count": 1,
+        "rewrite_summary": {
+          "extractor": "PythonStructuredContextExtractor",
+          "module_docstring_present": false,
+          "raw_class_count": 0,
+          "raw_function_count": 1,
+          "rewriter": "ContextRewriter",
+          "comments_and_format_noise_removed": true,
+          "signatures_normalized": true,
+          "call_and_control_flow_normalized": true,
+          "test_relevant_classes": 0,
+          "test_relevant_functions": 1
+        }
+      },
+      "iteration": 0,
+      "event_id": "sfe_3e79f53a1f1a"
+    },
+    {
+      "event_type": "InitialGraphBuilt",
+      "source_agent": "测试状态智能体",
+      "target_agent": "测试状态智能体",
+      "related_nodes": [
+        "program:module:task_001",
+        "program:function:task_001.is_positive:1",
+        "context:parameter:task_001.is_positive:value:1",
+        "context:returntype:task_001.is_positive:bool:1",
+        "program:return:task_001.is_positive:2",
+        "program:end:module"
+      ],
+      "related_edges": [],
+      "payload": {
+        "node_count": 6,
+        "edge_count": 5
+      },
+      "iteration": 0,
+      "event_id": "sfe_2f2f4e182d0f"
+    }
+  ],
+  "metadata": {
+    "graph_kind": "Test-State-Model",
+    "language": "python",
+    "structured_context": {
+      "language": "python",
+      "project_root": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources",
+      "source_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\sources\\task_001.py",
+      "package_or_module": "task_001",
+      "classes": [],
+      "functions": [
+        {
+          "name": "is_positive",
+          "qualified_name": "task_001.is_positive",
+          "visibility": "public",
+          "parameters": [
+            {
+              "name": "value",
+              "type_hint": "int",
+              "default": null,
+              "kind": "positional"
+            }
+          ],
+          "return_type": "bool",
+          "thrown_exceptions": [],
+          "decorators_or_annotations": [],
+          "is_static": false,
+          "is_async": false,
+          "is_constructor": false,
+          "calls": [],
+          "branches": [],
+          "loops": [],
+          "returns": [
+            {
+              "kind": "return",
+              "text": "value > 0",
+              "line_start": 2,
+              "line_end": 2,
+              "qualified_owner": "task_001.is_positive"
+            }
+          ],
+          "raises_or_throws": [],
+          "related_dependencies": [],
+          "line_start": 1,
+          "line_end": 2,
+          "code": "def is_positive(value: int) -> bool:\n    return value > 0",
+          "class_name": null,
+          "type_parameters": [],
+          "is_override": false
+        }
+      ],
+      "dependencies": [],
+      "control_structures": [],
+      "execution_fragments": [
+        {
+          "kind": "return",
+          "text": "value > 0",
+          "line_start": 2,
+          "line_end": 2,
+          "qualified_owner": "task_001.is_positive"
+        }
+      ],
+      "rewrite_summary": {
+        "extractor": "PythonStructuredContextExtractor",
+        "module_docstring_present": false,
+        "raw_class_count": 0,
+        "raw_function_count": 1,
+        "rewriter": "ContextRewriter",
+        "comments_and_format_noise_removed": true,
+        "signatures_normalized": true,
+        "call_and_control_flow_normalized": true,
+        "test_relevant_classes": 0,
+        "test_relevant_functions": 1
+      }
+    },
+    "analysis_strategy": "structured_context",
+    "method_core": {
+      "structured_code_analysis_and_rewrite": true,
+      "test_state_guidance": true,
+      "test_state_model": true,
+      "test_state_event_exchange": true,
+      "dynamic_validation_in_test_state_agent": true,
+      "state_positioning_repair_in_test_generation_agent": true,
+      "state_target_optimization_in_test_generation_agent": true,
+      "three_primary_agents": [
+        "TestStateAgent",
+        "TestGenerationAgent",
+        "TestKnowledgeAgent"
+      ],
+      "supported_languages": [
+        "python",
+        "java"
+      ]
+    },
+    "agent_collaboration_exchange": [
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "ContextExtracted",
+        "event_id": "sfe_3e79f53a1f1a",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 0,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      },
+      {
+        "sender": "测试状态智能体",
+        "artifact_type": "InitialGraphBuilt",
+        "event_id": "sfe_2f2f4e182d0f",
+        "iteration": 0,
+        "target_agent": "测试状态智能体",
+        "related_node_count": 6,
+        "related_edge_count": 0,
+        "state_flow_event": true
+      }
+    ],
+    "analysis_agent": "测试状态智能体/源码分析模块",
+    "test_generation_strategy": "deterministic",
+    "test_generation_validation": {
+      "accepted": true,
+      "stage": "accepted",
+      "failure_category": null,
+      "pytest_output": "",
+      "collected_count": 6,
+      "candidate_path": null,
+      "details": {
+        "metadata": {
+          "agent": "测试生成智能体/生成模块",
+          "plan": {
+            "cases": [
+              {
+                "id": "is_positive_case_1",
+                "function": "is_positive",
+                "args": [
+                  1
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": true,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              },
+              {
+                "id": "is_positive_case_2",
+                "function": "is_positive",
+                "args": [
+                  0
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": false,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              },
+              {
+                "id": "is_positive_case_3",
+                "function": "is_positive",
+                "args": [
+                  10
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": true,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              },
+              {
+                "id": "is_positive_case_4",
+                "function": "is_positive",
+                "args": [
+                  -1
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": false,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              },
+              {
+                "id": "is_positive_case_5",
+                "function": "is_positive",
+                "args": [
+                  60
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": true,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              },
+              {
+                "id": "is_positive_case_6",
+                "function": "is_positive",
+                "args": [
+                  90
+                ],
+                "oracle": {
+                  "kind": "equals",
+                  "value": true,
+                  "exception": null,
+                  "property": null
+                },
+                "evidence_ids": [],
+                "rationale": "deterministic observed normal behavior",
+                "confidence": 0.9
+              }
+            ]
+          },
+          "strategy": "deterministic"
+        },
+        "test_usability": {
+          "test_count": 6,
+          "assertion_count": 6,
+          "normal_behavior_tests": 6,
+          "exception_tests": 0,
+          "weak_assertions": 0,
+          "weak_assertions_only": false,
+          "exception_only": false
+        },
+        "backup_path": null
+      }
+    },
+    "generated_test_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\generated\\task_001\\test_task_001_stateflow.py",
+    "generated_test_plan": {
+      "cases": [
+        {
+          "id": "is_positive_case_1",
+          "function": "is_positive",
+          "args": [
+            1
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": true,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        },
+        {
+          "id": "is_positive_case_2",
+          "function": "is_positive",
+          "args": [
+            0
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": false,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        },
+        {
+          "id": "is_positive_case_3",
+          "function": "is_positive",
+          "args": [
+            10
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": true,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        },
+        {
+          "id": "is_positive_case_4",
+          "function": "is_positive",
+          "args": [
+            -1
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": false,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        },
+        {
+          "id": "is_positive_case_5",
+          "function": "is_positive",
+          "args": [
+            60
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": true,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        },
+        {
+          "id": "is_positive_case_6",
+          "function": "is_positive",
+          "args": [
+            90
+          ],
+          "oracle": {
+            "kind": "equals",
+            "value": true,
+            "exception": null,
+            "property": null
+          },
+          "evidence_ids": [],
+          "rationale": "deterministic observed normal behavior",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "visualization": {
+      "status": "generated",
+      "graph_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\generated\\task_001\\state_flow_graph.html",
+      "graph_svg": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\generated\\task_001\\state_flow_graph.svg",
+      "source_coverage_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\final-py-20260830\\test_batch_generate_tests_for_0\\generated\\task_001\\source_coverage.html",
+      "generated_at": "2026-08-30T08:15:33.183153+00:00"
+    }
+  }
+}

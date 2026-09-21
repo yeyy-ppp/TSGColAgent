@@ -1,0 +1,216 @@
+{
+  "schema_version": 2,
+  "entries": {
+    "java_toolchain:ed2cdcc6feaae834d1eb709632bfab5b64ccbaa2c607e5870c53c4cd538feb72": {
+      "result": {
+        "language": "java",
+        "build_system": "maven",
+        "passed": true,
+        "junit": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADDTest",
+            "test",
+            "jacoco:report"
+          ],
+          "passed": true,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "timed_out": false,
+          "tool_missing": false,
+          "tool_resolution": null,
+          "combined_with_jacoco": true
+        },
+        "line_coverage": 0.5,
+        "branch_coverage": 0.0,
+        "method_coverage": 0.5,
+        "mutation_score": null,
+        "jacoco": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADDTest",
+            "test",
+            "jacoco:report"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "line_coverage": 0.5,
+          "branch_coverage": 0.0,
+          "method_coverage": 0.5,
+          "matched_class_rows": 1,
+          "covered_lines": [
+            5
+          ],
+          "missing_lines": [
+            3
+          ],
+          "valid": true,
+          "xml_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\target\\site\\jacoco\\jacoco.xml",
+          "target_class": "humaneval.correct.ADD",
+          "csv_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\target\\site\\jacoco\\jacoco.csv"
+        },
+        "pit": {
+          "valid": false,
+          "mutation_score": null,
+          "build_system": "maven",
+          "skipped": true,
+          "skipped_reason": "deferred_until_final_candidate",
+          "evaluation_profile": "screening"
+        },
+        "evaluation_profile": "screening",
+        "combined_test_coverage": true
+      }
+    },
+    "java_toolchain:a1d33f41a4007fccd3aa76957189d5628abdafdff6053064b4d8513da791f760": {
+      "result": {
+        "language": "java",
+        "build_system": "maven",
+        "passed": true,
+        "junit": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADDTest",
+            "test",
+            "jacoco:report"
+          ],
+          "passed": true,
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "timed_out": false,
+          "tool_missing": false,
+          "tool_resolution": null,
+          "combined_with_jacoco": true
+        },
+        "line_coverage": 0.5,
+        "branch_coverage": 0.0,
+        "method_coverage": 0.5,
+        "mutation_score": 1.0,
+        "jacoco": {
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-Dtest=ADDTest",
+            "test",
+            "jacoco:report"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "line_coverage": 0.5,
+          "branch_coverage": 0.0,
+          "method_coverage": 0.5,
+          "matched_class_rows": 1,
+          "covered_lines": [
+            5
+          ],
+          "missing_lines": [
+            3
+          ],
+          "valid": true,
+          "xml_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\target\\site\\jacoco\\jacoco.xml",
+          "target_class": "humaneval.correct.ADD",
+          "csv_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\target\\site\\jacoco\\jacoco.csv"
+        },
+        "pit": {
+          "valid": true,
+          "mutation_score": 1.0,
+          "xml_score": 1.0,
+          "killed": 2,
+          "survived": 0,
+          "timeout": 0,
+          "invalid": 0,
+          "infra_error": 0,
+          "no_coverage": 0,
+          "total": 2,
+          "effective_mutants": 2,
+          "score_reliability": "low",
+          "score": 1.0,
+          "killed_lines": [
+            5,
+            5
+          ],
+          "survived_lines": [],
+          "timeout_lines": [],
+          "invalid_lines": [],
+          "infra_error_lines": [],
+          "no_coverage_lines": [],
+          "details": [
+            {
+              "status": "killed",
+              "category": "killed",
+              "detected": true,
+              "line": 5,
+              "class": "humaneval.correct.ADD",
+              "method": "add",
+              "mutator": "MathMutator",
+              "description": "Replaced integer addition with subtraction",
+              "killing_test": "humaneval.correct.ADDTest.[engine:junit-jupiter]/[class:humaneval.correct.ADDTest]/[method:aDD_add_1_arithmetic2_2()]"
+            },
+            {
+              "status": "killed",
+              "category": "killed",
+              "detected": true,
+              "line": 5,
+              "class": "humaneval.correct.ADD",
+              "method": "add",
+              "mutator": "PrimitiveReturnsMutator",
+              "description": "replaced int return with 0 for humaneval/correct/ADD::add",
+              "killing_test": "humaneval.correct.ADDTest.[engine:junit-jupiter]/[class:humaneval.correct.ADDTest]/[method:aDD_add_1_arithmetic2_2()]"
+            }
+          ],
+          "candidate_count": 2,
+          "attempted_mutants": 2,
+          "low_sample_reason": "effective mutants fewer than 3 (2)",
+          "autonomy_action": "plan boundary and branch-distinguishing assertions",
+          "xml_path": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\target\\pit-reports\\mutations.xml",
+          "command": [
+            "D:\\TopNew-SpringBoot\\maven\\apache-maven-3.9.1-bin\\apache-maven-3.9.1\\bin\\mvn.cmd",
+            "-q",
+            "-Dmaven.repo.local=D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\java_workspace\\.m2\\repository",
+            "-s",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-gs",
+            "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\audit_20260904\\java_smoke\\ADD\\.java_workspace\\.m2\\settings.xml",
+            "-DtargetClasses=humaneval.correct.ADD",
+            "-DtargetTests=humaneval.correct.ADDTest",
+            "org.pitest:pitest-maven:mutationCoverage"
+          ],
+          "target_class": "humaneval.correct.ADD",
+          "test_selector": "ADDTest",
+          "returncode": 0,
+          "stdout": "\b/\b-\b\\\b/================================================================================\n- Mutators\n================================================================================\n> org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator\n>> Generated 1 Killed 1 (100%)\n> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 \n> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 \n> NO_COVERAGE 0 \n--------------------------------------------------------------------------------\n> org.pitest.mutationtest.engine.gregor.mutators.MathMutator\n>> Generated 1 Killed 1 (100%)\n> KILLED 1 SURVIVED 0 TIMED_OUT 0 NON_VIABLE 0 \n> MEMORY_ERROR 0 NOT_STARTED 0 STARTED 0 RUN_ERROR 0 \n> NO_COVERAGE 0 \n--------------------------------------------------------------------------------\n================================================================================\n- Timings\n================================================================================\n> pre-scan for mutations : < 1 second\n> scan classpath : < 1 second\n> coverage and dependency analysis : 1 seconds\n> build mutation tests : < 1 second\n> run mutation analysis : 1 seconds\n--------------------------------------------------------------------------------\n> Total  : 2 seconds\n--------------------------------------------------------------------------------\n================================================================================\n- Statistics\n================================================================================\n>> Line Coverage (for mutated classes only): 1/2 (50%)\n>> Generated 2 mutations Killed 2 (100%)\n>> Mutations with no coverage 0. Test strength 100%\n>> Ran 4 tests (2 tests per mutation)\nEnhanced functionality available at https://www.arcmutate.com/\n",
+          "stderr": "下午12:58:31 PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.\n下午12:58:32 PIT >> INFO : Created 1 mutation test units in pre scan\n下午12:58:32 PIT >> INFO : Sending 1 test classes to minion\n下午12:58:32 PIT >> INFO : Sent tests to minion\n下午12:58:33 PIT >> INFO : Calculated coverage in 1 seconds.\n下午12:58:33 PIT >> INFO : Created 1 mutation test units\n下午12:58:34 PIT >> INFO : Completed in 2 seconds\n"
+        },
+        "evaluation_profile": "full",
+        "combined_test_coverage": true,
+        "reused_screening_validation": true
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_r3_failed_optimization_pr0\\sources\\task_000.py",
+  "sessions": [
+    {
+      "id": "77c522f9533c7e2c819c",
+      "round": 1,
+      "strategy": "initial_generation",
+      "status": "valid_usable",
+      "started_at": "2026-08-30T08:02:16.333514+00:00",
+      "finished_at": "2026-08-30T08:02:16.347515+00:00",
+      "duration_seconds": 0.014
+    },
+    {
+      "id": "45789023101ad8959bde",
+      "round": 3,
+      "strategy": "optimize_existing",
+      "status": "execution_invalid",
+      "started_at": "2026-08-30T08:02:16.374113+00:00",
+      "finished_at": "2026-08-30T08:02:16.450080+00:00",
+      "duration_seconds": 0.076
+    }
+  ],
+  "updated_at": "2026-08-30T08:02:16.450080+00:00"
+}

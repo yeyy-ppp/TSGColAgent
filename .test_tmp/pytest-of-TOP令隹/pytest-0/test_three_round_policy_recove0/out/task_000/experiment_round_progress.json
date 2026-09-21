@@ -1,0 +1,12 @@
+{
+  "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_three_round_policy_recove0\\sources\\task_000.py",
+  "experiment_round": 3,
+  "status": "completed",
+  "strategy": "optimize_existing",
+  "previous_grade": "C",
+  "previous_status": "valid_usable",
+  "final_grade": "B",
+  "result_status": "quality_acceptable",
+  "improved": true,
+  "updated_at": "2026-08-30T08:02:16.163489+00:00"
+}

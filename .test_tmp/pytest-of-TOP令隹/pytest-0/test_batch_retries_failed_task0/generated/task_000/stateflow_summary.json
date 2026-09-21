@@ -1,0 +1,111 @@
+{
+  "round_failure_diagnostic": {
+    "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources\\task_000.py",
+    "final_grade": "D",
+    "grade_label": "D·R1",
+    "experiment_round": 1,
+    "failure_category": "timeout",
+    "failure_reason": "timeout: execution_invalid",
+    "failure_stage": "test_execution",
+    "error": "execution_invalid",
+    "stop_reason": "execution_invalid",
+    "attempted_measures": [],
+    "suggested_solutions": [
+      "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。"
+    ],
+    "evidence": {},
+    "previous_solutions": [
+      "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。",
+      "下一轮生成前先检索并应用该规避措施"
+    ],
+    "grade_history": [
+      {
+        "round": 1,
+        "grade": "D",
+        "status": "execution_invalid",
+        "label": "D·R1",
+        "failure_reason": "timeout: execution_invalid",
+        "metrics": {
+          "pytest_passed": false,
+          "line_coverage": null,
+          "branch_coverage": null,
+          "sfc": null,
+          "ae": null,
+          "mutation_score": null,
+          "sfq": null,
+          "tsq": null
+        },
+        "knowledge_selected_ids": []
+      }
+    ],
+    "knowledge_history": [
+      {
+        "round": 1,
+        "selected_ids": [],
+        "status": "retrieved_without_selected_match"
+      }
+    ],
+    "matched_experience_ids": [
+      "failure-3fa30ced06c0c3620e25ca83"
+    ],
+    "knowledge_record_id": "failure-3fa30ced06c0c3620e25ca83",
+    "generated_at": "2026-08-30T08:02:13.846547+00:00"
+  },
+  "round_failure_history": [
+    {
+      "source": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\sources\\task_000.py",
+      "final_grade": "D",
+      "grade_label": "D·R1",
+      "experiment_round": 1,
+      "failure_category": "timeout",
+      "failure_reason": "timeout: execution_invalid",
+      "failure_stage": "test_execution",
+      "error": "execution_invalid",
+      "stop_reason": "execution_invalid",
+      "attempted_measures": [],
+      "suggested_solutions": [
+        "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。"
+      ],
+      "evidence": {},
+      "previous_solutions": [
+        "缩小输入规模，规避长循环、深递归和外部等待，并限制单次执行时间。",
+        "下一轮生成前先检索并应用该规避措施"
+      ],
+      "grade_history": [
+        {
+          "round": 1,
+          "grade": "D",
+          "status": "execution_invalid",
+          "label": "D·R1",
+          "failure_reason": "timeout: execution_invalid",
+          "metrics": {
+            "pytest_passed": false,
+            "line_coverage": null,
+            "branch_coverage": null,
+            "sfc": null,
+            "ae": null,
+            "mutation_score": null,
+            "sfq": null,
+            "tsq": null
+          },
+          "knowledge_selected_ids": []
+        }
+      ],
+      "knowledge_history": [
+        {
+          "round": 1,
+          "selected_ids": [],
+          "status": "retrieved_without_selected_match"
+        }
+      ],
+      "matched_experience_ids": [
+        "failure-3fa30ced06c0c3620e25ca83"
+      ],
+      "knowledge_record_id": "failure-3fa30ced06c0c3620e25ca83",
+      "generated_at": "2026-08-30T08:02:13.846547+00:00"
+    }
+  ],
+  "visualization": {
+    "failure_report_html": "D:\\2025_7_8\\17\\0707_agent_project\\My_Mutil_Agent_7_fixed\\My_Mutil_Agent0830\\My_Mutil_Agent\\.test_tmp\\pytest-of-TOP令隹\\pytest-0\\test_batch_retries_failed_task0\\generated\\task_000\\task_failure_report_R1.html"
+  }
+}
